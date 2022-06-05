@@ -1,0 +1,27 @@
+{
+  "name": "@pijma/business",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiwi/pijma-business.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qiwi/pijma-business/issues"
+  },
+  "homepage": "https://qiwi.github.io/pijma-business/",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "sb:start": "yarn workspace @pijma/business-storybook start",
+    "sb:build": "yarn workspace @pijma/business-storybook build",
+    "sb:serve": "yarn workspace @pijma/business-storybook serve",
+    "sb:clean": "yarn workspace @pijma/business-storybook clean",
+    "clean": "yarn workspaces foreach --parallel --topological-dev --no-private run clean",
+    "build": "yarn workspaces foreach --parallel --topological-dev --no-private run build",
+    "style": "yarn workspaces foreach --parallel --topological-dev --no-private run style",
+    "test": "exit 0"
+  },
+  "packageManager": "yarn@4.0.0-rc.9"
+}

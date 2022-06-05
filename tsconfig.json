@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "strict": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "baseUrl": "./",
+    "paths": {
+      "@pijma/business-*": [
+        "./packages/*/src"
+      ]
+    }
+  }
+}
