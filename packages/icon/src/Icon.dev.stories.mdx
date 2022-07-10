@@ -1,0 +1,30 @@
+import { Icon } from './Icon'
+import { Meta, Canvas, Story } from '@storybook/addon-docs'
+
+<Meta
+  title="Playground/Графика"
+  component={Icon}
+  argTypes={{
+    name: {
+      defaultValue: '24',
+    },
+    size: {
+      defaultValue: 40,
+    },
+    color: {
+      defaultValue: 'black',
+    },
+  }}
+  parameters={{
+    viewMode: 'story',
+    controls: {
+      include: ['name', 'color', 'size'],
+    },
+  }}
+/>
+
+export const Template = (props) => <Icon {...props} />
+
+<Canvas>
+  <Story name="Иконка">{Template.bind({})}</Story>
+</Canvas>
