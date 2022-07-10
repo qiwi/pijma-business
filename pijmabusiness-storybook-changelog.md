@@ -1,3 +1,11 @@
+## [@pijma/business-storybook@0.5.0](https://github.com/qiwi/pijma-business/compare/2022.7.10-pijma.business-storybook.0.4.0-f0...2022.7.10-pijma.business-storybook.0.5.0-f0) (2022-07-10)
+
+### Features
+* feat: add button [dae9c04](https://github.com/qiwi/pijma-business/commit/dae9c04983e191245f883f12bdaf38448710f149)
+
+### Dependencies
+* perf: @pijma/business-button updated to 0.1.0
+
 ## [@pijma/business-storybook@0.4.0](https://github.com/qiwi/pijma-business/compare/2022.7.10-pijma.business-storybook.0.3.2-f0...2022.7.10-pijma.business-storybook.0.4.0-f0) (2022-07-10)
 
 ### Features
