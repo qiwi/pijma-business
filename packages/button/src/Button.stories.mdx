@@ -1,0 +1,72 @@
+import { Button } from './Button'
+import { View } from '@pijma/react-native'
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs'
+
+<Meta title="Кнопки/Кнопка" component={Button} />
+
+# Кнопка
+
+<ArgsTable of={Button} />
+
+## C текстом и иконкой
+
+<Canvas>
+  <Story name="C текстом и иконкой">
+    <View width={['100%', 200]}>
+      <View padding={8}>
+        <Button color="white" text="Жми" icon="check-in-circle" />
+      </View>
+      <View padding={8}>
+        <Button color="white" text="Жди" icon="cross-in-circle" disabled />
+      </View>
+      <View padding={8}>
+        <Button color="orange" text="Жми" icon="check-in-circle" />
+      </View>
+      <View padding={8}>
+        <Button color="orange" text="Жди" icon="cross-in-circle" disabled />
+      </View>
+    </View>
+  </Story>
+</Canvas>
+
+## Только с текстом
+
+<Canvas>
+  <Story name="Только с текстом">
+    <View width={['100%', 200]}>
+      <View padding={8}>
+        <Button color="white" text="Жми" />
+      </View>
+      <View padding={8}>
+        <Button color="white" text="Жди" disabled />
+      </View>
+      <View padding={8}>
+        <Button color="orange" text="Жми" />
+      </View>
+      <View padding={8}>
+        <Button color="orange" text="Жди" disabled />
+      </View>
+    </View>
+  </Story>
+</Canvas>
+
+## Только с иконкой
+
+<Canvas>
+  <Story name="Только с иконкой">
+    <View width={['100%', 200]}>
+      <View padding={8}>
+        <Button color="white" icon="check-in-circle" />
+      </View>
+      <View padding={8}>
+        <Button color="white" icon="cross-in-circle" disabled />
+      </View>
+      <View padding={8}>
+        <Button color="orange" icon="check-in-circle" />
+      </View>
+      <View padding={8}>
+        <Button color="orange" icon="cross-in-circle" disabled />
+      </View>
+    </View>
+  </Story>
+</Canvas>
