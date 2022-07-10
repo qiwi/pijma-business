@@ -1,0 +1,9 @@
+{
+  "META_VERSION": "1",
+  "name": "@pijma/business-wrapper",
+  "hash": "e3b21ed478035175ddba93c47433e905904ac8e6",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@pijma/business-theme": "0.1.0"
+  }
+}
