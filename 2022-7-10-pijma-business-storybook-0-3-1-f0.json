@@ -1,0 +1,10 @@
+{
+  "META_VERSION": "1",
+  "name": "@pijma/business-storybook",
+  "hash": "483cefbcf1f10a06ae4f6aa63f978f025d6c02ae",
+  "version": "0.3.1",
+  "dependencies": {
+    "@pijma/business-icons": "0.0.1",
+    "@pijma/business-wrapper": "0.1.0"
+  }
+}
