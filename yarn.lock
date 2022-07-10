@@ -2292,7 +2292,7 @@ __metadata:
     "@babel/preset-env": "npm:7.18.6"
     "@babel/preset-react": "npm:7.18.6"
     "@babel/preset-typescript": "npm:7.18.6"
-    "@pijma/business-wrapper": "npm:0.0.0"
+    "@pijma/business-wrapper": "workspace:*"
     "@pijma/react-native": "npm:1.2.1"
     "@pijma/react-native-svg": "npm:1.2.1"
     "@storybook/addon-essentials": "npm:6.5.9"
@@ -2360,7 +2360,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pijma/business-wrapper@npm:0.0.0, @pijma/business-wrapper@workspace:packages/wrapper":
+"@pijma/business-wrapper@workspace:*, @pijma/business-wrapper@workspace:packages/wrapper":
   version: 0.0.0-use.local
   resolution: "@pijma/business-wrapper@workspace:packages/wrapper"
   dependencies:
