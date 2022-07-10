@@ -1,0 +1,9 @@
+{
+  "META_VERSION": "1",
+  "name": "@pijma/business-button",
+  "hash": "dae9c04983e191245f883f12bdaf38448710f149",
+  "version": "0.1.0",
+  "dependencies": {
+    "@pijma/business-icon": "0.1.0"
+  }
+}
