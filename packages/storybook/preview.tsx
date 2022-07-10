@@ -1,4 +1,6 @@
-import { Parameters } from '@storybook/react'
+import { Wrapper } from '@pijma/business-wrapper'
+import { DecoratorFn, Parameters } from '@storybook/react'
+import React from 'react'
 
 import { theme } from './theme'
 
@@ -28,3 +30,7 @@ export const parameters: Parameters = {
     },
   },
 }
+
+export const decorators: DecoratorFn[] = [
+  (Story) => <Wrapper>{Story()}</Wrapper>,
+]

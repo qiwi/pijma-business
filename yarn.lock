@@ -2292,6 +2292,7 @@ __metadata:
     "@babel/preset-env": "npm:7.18.6"
     "@babel/preset-react": "npm:7.18.6"
     "@babel/preset-typescript": "npm:7.18.6"
+    "@pijma/business-wrapper": "npm:0.0.0"
     "@pijma/react-native": "npm:1.2.1"
     "@pijma/react-native-svg": "npm:1.2.1"
     "@storybook/addon-essentials": "npm:6.5.9"
@@ -2330,7 +2331,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pijma/business-theme@workspace:packages/theme":
+"@pijma/business-theme@npm:0.0.0, @pijma/business-theme@workspace:packages/theme":
   version: 0.0.0-use.local
   resolution: "@pijma/business-theme@workspace:packages/theme"
   dependencies:
@@ -2347,6 +2348,37 @@ __metadata:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-native: "npm:0.69.1"
+    tsc-esm-fix: "npm:2.18.0"
+    tslib: "npm:2.4.0"
+    typescript: "npm:4.7.4"
+  peerDependencies:
+    "@pijma/react-native": ">=1.0.0"
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+    react-native: ">=0.50.0"
+    tslib: ">=2.0.0"
+  languageName: unknown
+  linkType: soft
+
+"@pijma/business-wrapper@npm:0.0.0, @pijma/business-wrapper@workspace:packages/wrapper":
+  version: 0.0.0-use.local
+  resolution: "@pijma/business-wrapper@workspace:packages/wrapper"
+  dependencies:
+    "@pijma/business-theme": "npm:0.0.0"
+    "@pijma/react-native": "npm:1.2.1"
+    "@types/react": "npm:18.0.15"
+    "@types/react-dom": "npm:18.0.6"
+    "@types/react-native": "npm:0.69.2"
+    concurrently: "npm:7.2.2"
+    eslint: "npm:8.19.0"
+    eslint-config-prettier: "npm:8.5.0"
+    eslint-config-qiwi: "npm:1.17.3"
+    prettier: "npm:2.7.1"
+    prettier-config-qiwi: "npm:1.7.2"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    react-native: "npm:0.69.1"
+    react-native-svg: "npm:12.3.0"
     tsc-esm-fix: "npm:2.18.0"
     tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
