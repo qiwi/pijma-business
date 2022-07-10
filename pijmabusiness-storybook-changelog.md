@@ -1,3 +1,9 @@
+## [@pijma/business-storybook@0.5.1](https://github.com/qiwi/pijma-business/compare/2022.7.10-pijma.business-storybook.0.5.0-f0...2022.7.10-pijma.business-storybook.0.5.1-f0) (2022-07-10)
+
+### Fixes & improvements
+* fix: sb docs headings [a4d47cd](https://github.com/qiwi/pijma-business/commit/a4d47cd792122ae27589ebfa73d98bca7f36148e)
+* fix: sb url [82dbe3e](https://github.com/qiwi/pijma-business/commit/82dbe3ec6f1e362d1aadca47e2fb013156722307)
+
 ## [@pijma/business-storybook@0.5.0](https://github.com/qiwi/pijma-business/compare/2022.7.10-pijma.business-storybook.0.4.0-f0...2022.7.10-pijma.business-storybook.0.5.0-f0) (2022-07-10)
 
 ### Features
