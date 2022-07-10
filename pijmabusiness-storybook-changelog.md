@@ -1,3 +1,11 @@
+## [@pijma/business-storybook@0.3.2](https://github.com/qiwi/pijma-business/compare/2022.7.10-pijma.business-storybook.0.3.1-f0...2022.7.10-pijma.business-storybook.0.3.2-f0) (2022-07-10)
+
+### Fixes & improvements
+* fix: add icon to sb [ef8ca2c](https://github.com/qiwi/pijma-business/commit/ef8ca2c32c8ce6de98ae33f918e886b48e661cf1)
+
+### Dependencies
+* perf: @pijma/business-icon updated to 0.1.0
+
 ## [@pijma/business-storybook@0.3.1](https://github.com/qiwi/pijma-business/compare/2022.7.10-pijma.business-storybook.0.3.0-f0...2022.7.10-pijma.business-storybook.0.3.1-f0) (2022-07-10)
 
 ### Fixes & improvements
