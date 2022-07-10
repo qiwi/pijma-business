@@ -1,3 +1,4 @@
+import * as icons from '@pijma/business-icons'
 import { Wrapper } from '@pijma/business-wrapper'
 import { DecoratorFn, Parameters } from '@storybook/react'
 import React from 'react'
@@ -26,11 +27,12 @@ export const parameters: Parameters = {
   options: {
     storySort: {
       method: 'alphabetical',
+      order: ['Pijma Business', '*', 'Playground'],
       locales: '',
     },
   },
 }
 
 export const decorators: DecoratorFn[] = [
-  (Story) => <Wrapper>{Story()}</Wrapper>,
+  (Story) => <Wrapper components={icons}>{Story()}</Wrapper>,
 ]
