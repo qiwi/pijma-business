@@ -1,7 +1,12 @@
 import { Parameters } from '@storybook/react'
 
+import { theme } from './theme'
+
 export const parameters: Parameters = {
   layout: 'centered',
+  docs: {
+    theme,
+  },
   viewMode: 'docs',
   previewTabs: {
     canvas: {
