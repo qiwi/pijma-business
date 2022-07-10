@@ -1,0 +1,26 @@
+import { Heading } from './Heading'
+import { Meta, Canvas, Story } from '@storybook/addon-docs'
+
+<Meta
+  title="Playground/Типографика"
+  component={Heading}
+  argTypes={{
+    size: {
+      defaultValue: 1,
+    },
+  }}
+  parameters={{
+    viewMode: 'story',
+    controls: {
+      include: ['size'],
+    },
+  }}
+/>
+
+export const Template = (props) => (
+  <Heading {...props}>Заголовок {props.size}</Heading>
+)
+
+<Canvas>
+  <Story name="Заголовок">{Template.bind({})}</Story>
+</Canvas>

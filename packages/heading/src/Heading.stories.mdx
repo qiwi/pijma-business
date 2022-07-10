@@ -1,0 +1,32 @@
+import { Heading } from './Heading'
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs'
+
+<Meta title="Типографика/Заголовок" component={Heading} />
+
+# Заголовок
+
+<ArgsTable of={Heading} />
+
+## Заголовок 1
+
+<Canvas>
+  <Story name="Заголовок 1">
+    <Heading size="1">Заголовок 1</Heading>
+  </Story>
+</Canvas>
+
+## Заголовок 2
+
+<Canvas>
+  <Story name="Заголовок 2">
+    <Heading size="2">Заголовок 2</Heading>
+  </Story>
+</Canvas>
+
+## Заголовок 3
+
+<Canvas>
+  <Story name="Заголовок 3">
+    <Heading size="3">Заголовок 3</Heading>
+  </Story>
+</Canvas>

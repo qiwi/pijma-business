@@ -1,0 +1,29 @@
+import { Paragraph } from './Paragraph'
+import { Meta, Canvas, Story } from '@storybook/addon-docs'
+
+<Meta
+  title="Playground/Типографика"
+  component={Paragraph}
+  argTypes={{
+    size: {
+      defaultValue: 10,
+    },
+    color: {
+      defaultValue: 'black',
+    },
+  }}
+  parameters={{
+    viewMode: 'story',
+    controls: {
+      include: ['size', 'color'],
+    },
+  }}
+/>
+
+export const Template = (props) => (
+  <Paragraph {...props}>Параграф {props.size}</Paragraph>
+)
+
+<Canvas>
+  <Story name="Параграф">{Template.bind({})}</Story>
+</Canvas>

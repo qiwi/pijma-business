@@ -1,0 +1,81 @@
+import { Paragraph } from './Paragraph'
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs'
+import { View } from '@pijma/react-native'
+
+<Meta
+  title="Типографика/Параграф"
+  component={Paragraph}
+  decorators={[(Story) => <View>{Story()}</View>]}
+/>
+
+# Параграф
+
+<ArgsTable of={Paragraph} />
+
+## Параграф 10
+
+<Canvas>
+  <Story name="Параграф 10">
+    <Paragraph size={10}>Параграф 10</Paragraph>
+    <Paragraph size={10} color="gray">
+      Параграф 10
+    </Paragraph>
+    <Paragraph size={10} color="red">
+      Параграф 10
+    </Paragraph>
+    <Paragraph size={10} color="green">
+      Параграф 10
+    </Paragraph>
+  </Story>
+</Canvas>
+
+## Параграф 14
+
+<Canvas>
+  <Story name="Параграф 14">
+    <Paragraph size={14}>Параграф 14</Paragraph>
+    <Paragraph size={14} color="gray">
+      Параграф 14
+    </Paragraph>
+    <Paragraph size={14} color="red">
+      Параграф 14
+    </Paragraph>
+    <Paragraph size={14} color="green">
+      Параграф 14
+    </Paragraph>
+  </Story>
+</Canvas>
+
+## Параграф 16
+
+<Canvas>
+  <Story name="Параграф 16">
+    <Paragraph size={16}>Параграф 16</Paragraph>
+    <Paragraph size={16} color="gray">
+      Параграф 16
+    </Paragraph>
+    <Paragraph size={16} color="red">
+      Параграф 16
+    </Paragraph>
+    <Paragraph size={16} color="green">
+      Параграф 16
+    </Paragraph>
+  </Story>
+</Canvas>
+
+## Параграф 19
+
+<Canvas>
+  <Story name="Параграф 19">
+    <Paragraph size={19}>Параграф 19</Paragraph>
+    <Paragraph size={19} color="gray">
+      Параграф 19
+    </Paragraph>
+    <Paragraph size={19} color="red">
+      Параграф 19
+    </Paragraph>
+    <Paragraph size={19} color="green">
+      Параграф 19
+    </Paragraph>
+  </Story>
+</Canvas>
