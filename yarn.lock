@@ -2289,7 +2289,7 @@ __metadata:
   resolution: "@pijma/business-button@workspace:packages/button"
   dependencies:
     "@pijma/business-icon": "workspace:*"
-    "@pijma/react-native": "npm:1.2.1"
+    "@pijma/react-native": "npm:1.4.0"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2318,7 +2318,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-heading@workspace:packages/heading"
   dependencies:
-    "@pijma/react-native": "npm:1.2.1"
+    "@pijma/react-native": "npm:1.4.0"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2378,8 +2378,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-icons@workspace:packages/icons"
   dependencies:
-    "@pijma/react-native": "npm:1.2.1"
-    "@pijma/react-native-svg": "npm:1.2.1"
+    "@pijma/react-native": "npm:1.4.0"
+    "@pijma/react-native-svg": "npm:1.4.0"
     "@svgr/cli": "npm:6.2.1"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
@@ -2411,7 +2411,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-paragraph@workspace:packages/paragraph"
   dependencies:
-    "@pijma/react-native": "npm:1.2.1"
+    "@pijma/react-native": "npm:1.4.0"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2450,8 +2450,8 @@ __metadata:
     "@pijma/business-icons": "workspace:*"
     "@pijma/business-paragraph": "workspace:*"
     "@pijma/business-wrapper": "workspace:*"
-    "@pijma/react-native": "npm:1.2.1"
-    "@pijma/react-native-svg": "npm:1.2.1"
+    "@pijma/react-native": "npm:1.4.0"
+    "@pijma/react-native-svg": "npm:1.4.0"
     "@storybook/addon-essentials": "npm:6.5.9"
     "@storybook/addon-interactions": "npm:6.5.9"
     "@storybook/addon-jest": "npm:6.5.9"
@@ -2492,7 +2492,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-theme@workspace:packages/theme"
   dependencies:
-    "@pijma/react-native": "npm:1.2.1"
+    "@pijma/react-native": "npm:1.4.0"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2522,7 +2522,7 @@ __metadata:
   resolution: "@pijma/business-wrapper@workspace:packages/wrapper"
   dependencies:
     "@pijma/business-theme": "workspace:*"
-    "@pijma/react-native": "npm:1.2.1"
+    "@pijma/react-native": "npm:1.4.0"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2554,17 +2554,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pijma/react-native-svg@npm:1.2.1":
-  version: 1.2.1
-  resolution: "@pijma/react-native-svg@npm:1.2.1"
-  checksum: cf3d05ea846adf3c64c8b079a3e0e3b167c65ce981d8aa08a7bc2bc142f501decef00f95552e2b22d53769a2c57b140853b2d1046c59ba7336b0a9c87bd49e78
+"@pijma/react-native-svg@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@pijma/react-native-svg@npm:1.4.0"
+  checksum: 26b677a9d314740bd5126122d6223c811115ed8f6446e7f4cef3b7181accfdeadc8a4c1f7303288cac3ee192084a95c9805559703e1b53f9493db142403b3d20
   languageName: node
   linkType: hard
 
-"@pijma/react-native@npm:1.2.1":
-  version: 1.2.1
-  resolution: "@pijma/react-native@npm:1.2.1"
-  checksum: 9cda3031be749c2241cfeafb97c27b9a8e04129dbb95a53c92ccdd6d44d040da6ff198c40f12fc56a574caa794fb59f0ea9a6b5339d0c27f81aa9ee218ef3713
+"@pijma/react-native@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@pijma/react-native@npm:1.4.0"
+  checksum: b44460a6671c280cc75a9f3b57f98b3c2a685195ad604606ac9e1378733c03948eb73cac629bf9fb9cd318dd3f635ed67d3a6d4452f63db7f3d46317a5bb4b1b
   languageName: node
   linkType: hard
 
