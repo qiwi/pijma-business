@@ -1,3 +1,8 @@
+## [@pijma/business-theme@0.2.1](https://github.com/qiwi/pijma-business/compare/2022.7.10-pijma.business-theme.0.2.0-f0...2022.7.11-pijma.business-theme.0.2.1-f0) (2022-07-11)
+
+### Fixes & improvements
+* fix: up deps [8de9c41](https://github.com/qiwi/pijma-business/commit/8de9c418fcc3c850f99d684bfa9c85fe41e5fe1c)
+
 ## [@pijma/business-theme@0.2.0](https://github.com/qiwi/pijma-business/compare/2022.7.10-pijma.business-theme.0.1.0-f0...2022.7.10-pijma.business-theme.0.2.0-f0) (2022-07-10)
 
 ### Features
