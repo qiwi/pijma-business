@@ -1,25 +1,27 @@
 import { Button } from './Button'
 import { View } from '@pijma/react-native'
 import { Meta, Canvas, Story } from '@storybook/addon-docs'
-import { action } from '@storybook/addon-actions'
 
 <Meta
   title="Playground/Кнопки"
   component={Button}
   decorators={[(Story) => <View width={['100%', 200]}>{Story()}</View>]}
   argTypes={{
-    color: {
-      defaultValue: 'orange',
-    },
     disabled: {
       control: 'boolean',
-      defaultValue: false,
     },
+    onPress: {
+      action: 'pressed',
+    },
+  }}
+  args={{
+    color: 'orange',
+    disabled: false,
   }}
   parameters={{
     viewMode: 'story',
     controls: {
-      include: ['color', 'disabled'],
+      include: ['color', 'disabled', 'onPress'],
     },
   }}
 />
@@ -29,7 +31,6 @@ export const Template = (props) => (
     {...props}
     text={props.disabled ? 'Жди' : 'Жми'}
     icon={props.disabled ? 'cross-in-circle' : 'check-in-circle'}
-    onPress={action('pressed')}
   />
 )
 

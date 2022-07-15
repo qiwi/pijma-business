@@ -2,7 +2,7 @@ import { StorybookConfig } from '@storybook/core-common'
 import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin'
 
 const config: StorybookConfig = {
-  stories: ['../../**/src/*.stories.@(tsx|mdx)'],
+  stories: ['../../../**/src/*.stories.@(tsx|mdx)'],
   addons: [
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',

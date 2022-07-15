@@ -1,39 +1,17 @@
 name: CI
-on: [ push, pull_request ]
+on:
+  push:
+    branches:
+      - master
 jobs:
-  init:
-    name: Init
-    runs-on: ubuntu-latest
-    outputs:
-      skip: ${{ steps.ci-skip-step.outputs.ci-skip }}
-      skip-not: ${{ steps.ci-skip-step.outputs.ci-skip-not }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Skip
-        uses: mstachniuk/ci-skip@v1
-  test:
-    name: Test
-    needs: init
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Install
-        run: yarn
-      - name: Test
-        run: yarn test
-  release:
-    name: Release
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    needs: test
+  ci:
+    name: CI
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          ref: master
       - name: Install
         run: yarn install
       - name: Build

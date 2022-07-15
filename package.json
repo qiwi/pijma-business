@@ -23,5 +23,14 @@
     "style": "yarn workspaces foreach --parallel --topological-dev --no-private run style",
     "test": "exit 0"
   },
+  "resolutions": {
+    "jest": "27.5.1",
+    "jest-runner": "27.5.1",
+    "jest-watcher": "27.5.1",
+    "jest-regex-util": "27.5.1",
+    "@types/jest": "27.5.2",
+    "@storybook/instrumenter": "6.4.22",
+    "@storybook/client-logger": "6.4.22"
+  },
   "packageManager": "yarn@4.0.0-rc.9"
 }
