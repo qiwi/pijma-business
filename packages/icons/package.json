@@ -32,14 +32,14 @@
     "README.md"
   ],
   "scripts": {
-    "clean": "rm -rf lib",
-    "svgr": "rm -rf src && svgr --out-dir src svg",
+    "clean": "rimraf lib",
+    "svgr": "rimraf src && svgr --out-dir src svg",
     "build": "concurrently 'npm:build:*'",
     "build:mjs": "tsc --project tsconfig.mjs.json && tsc-esm-fix --tsconfig tsconfig.mjs.json --ext .mjs",
     "build:cjs": "tsc --project tsconfig.cjs.json && tsc-esm-fix --target lib/cjs --ext .cjs",
     "build:jsx": "tsc --project tsconfig.jsx.json",
     "build:dts": "tsc --project tsconfig.dts.json",
-    "style": "eslint --fix src && prettier --loglevel silent --write src"
+    "style": "eslint --no-error-on-unmatched-pattern --fix src && prettier --loglevel silent --write src"
   },
   "peerDependencies": {
     "@pijma/react-native": ">=1.0.0",

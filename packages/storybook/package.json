@@ -4,11 +4,11 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf lib",
+    "clean": "rimraf lib && rimraf node_modules/.cache",
     "start": "start-storybook --quiet --port 8080",
     "build": "build-storybook --quiet --output-dir lib",
     "serve": "http-server lib --port 8080 --silent",
-    "style": "eslint --fix src && prettier --loglevel silent --write src"
+    "style": "eslint --no-error-on-unmatched-pattern --fix src && prettier --loglevel silent --write src"
   },
   "dependencies": {
     "@babel/core": "7.18.6",

@@ -15,9 +15,7 @@ jobs:
       - name: Install
         run: yarn install
       - name: Build
-        run: yarn build
-      - name: Build Storybook
-        run: yarn sb:build
+        run: npx concurrently -k -s first 'npm:build' 'npm:sb:build'
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
