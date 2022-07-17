@@ -1,3 +1,11 @@
+## [@pijma/business-button@0.2.1](https://github.com/qiwi/pijma-business/compare/2022.7.15-pijma.business-button.0.2.0-f0...2022.7.17-pijma.business-button.0.2.1-f0) (2022-07-17)
+
+### Fixes & improvements
+* perf: concurrently build [f8f2999](https://github.com/qiwi/pijma-business/commit/f8f299922c9d0f997fcc2aafed095e2d8491bce2)
+
+### Dependencies
+* perf: @pijma/business-icon updated to 0.2.1
+
 ## [@pijma/business-button@0.2.0](https://github.com/qiwi/pijma-business/compare/2022.7.11-pijma.business-button.0.1.1-f0...2022.7.15-pijma.business-button.0.2.0-f0) (2022-07-15)
 
 ### Features
