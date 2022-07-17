@@ -1,3 +1,16 @@
+## [@pijma/business-storybook@0.6.1](https://github.com/qiwi/pijma-business/compare/2022.7.15-pijma.business-storybook.0.6.0-f0...2022.7.17-pijma.business-storybook.0.6.1-f0) (2022-07-17)
+
+### Fixes & improvements
+* perf: concurrently build [f8f2999](https://github.com/qiwi/pijma-business/commit/f8f299922c9d0f997fcc2aafed095e2d8491bce2)
+
+### Dependencies
+* perf: @pijma/business-button updated to 0.2.1
+* perf: @pijma/business-heading updated to 0.2.1
+* perf: @pijma/business-icon updated to 0.2.1
+* perf: @pijma/business-icons updated to 0.0.3
+* perf: @pijma/business-paragraph updated to 0.2.1
+* perf: @pijma/business-wrapper updated to 0.2.2
+
 ## [@pijma/business-storybook@0.6.0](https://github.com/qiwi/pijma-business/compare/2022.7.11-pijma.business-storybook.0.5.2-f0...2022.7.15-pijma.business-storybook.0.6.0-f0) (2022-07-15)
 
 ### Features
