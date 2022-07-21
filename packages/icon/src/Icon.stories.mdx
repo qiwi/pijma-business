@@ -1,15 +1,16 @@
 import { Icon } from './Icon'
 import * as icons from '@pijma/business-icons'
+import { light } from '@pijma/business-theme'
+import { Wrapper } from '@pijma/business-wrapper'
 import {
   Meta,
   Canvas,
-  Story,
   ArgsTable,
   IconGallery,
   IconItem,
 } from '@storybook/addon-docs'
 
-<Meta title="Графика/Иконка" component={Icon} />
+<Meta title="Графика/Иконка" />
 
 # Иконка
 
@@ -18,7 +19,7 @@ import {
 ## Галерея
 
 <Canvas withSource="none">
-  <Story name="Галерея">
+  <Wrapper components={icons} theme={light} breakpoints={[600, 1200]}>
     <IconGallery>
       {Object.keys(icons)
         .map((icon) =>
@@ -36,7 +37,7 @@ import {
           </IconItem>
         ))}
     </IconGallery>
-  </Story>
+  </Wrapper>
 </Canvas>
 
 ## Использование
