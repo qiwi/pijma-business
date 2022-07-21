@@ -2595,6 +2595,9 @@ __metadata:
 "@pijma/business@workspace:.":
   version: 0.0.0-use.local
   resolution: "@pijma/business@workspace:."
+  dependencies:
+    concurrently: "npm:7.2.2"
+    typescript: "npm:4.7.4"
   languageName: unknown
   linkType: soft
 

@@ -26,6 +26,10 @@
     "style": "yarn workspaces foreach --parallel --topological-dev --no-private run style",
     "test": "exit 0"
   },
+  "devDependencies": {
+    "concurrently": "7.2.2",
+    "typescript": "4.7.4"
+  },
   "resolutions": {
     "jest": "27.5.1",
     "jest-runner": "27.5.1",
