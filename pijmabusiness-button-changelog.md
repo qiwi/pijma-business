@@ -1,3 +1,8 @@
+## [@pijma/business-button@0.3.1](https://github.com/qiwi/pijma-business/compare/2022.7.21-pijma.business-button.0.3.0-f0...2022.7.21-pijma.business-button.0.3.1-f0) (2022-07-21)
+
+### Dependencies
+* perf: @pijma/business-icon updated to 0.3.1
+
 ## [@pijma/business-button@0.3.0](https://github.com/qiwi/pijma-business/compare/2022.7.17-pijma.business-button.0.2.1-f0...2022.7.21-pijma.business-button.0.3.0-f0) (2022-07-21)
 
 ### Features
