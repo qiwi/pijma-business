@@ -1,3 +1,12 @@
+## [@pijma/business-storybook@0.8.0](https://github.com/qiwi/pijma-business/compare/2022.7.21-pijma.business-storybook.0.7.0-f0...2022.7.21-pijma.business-storybook.0.8.0-f0) (2022-07-21)
+
+### Features
+* feat: add test-runner [364b431](https://github.com/qiwi/pijma-business/commit/364b43193efbbd59e5684526e63222423b0f38ab)
+
+### Dependencies
+* perf: @pijma/business-button updated to 0.3.1
+* perf: @pijma/business-icon updated to 0.3.1
+
 ## [@pijma/business-storybook@0.7.0](https://github.com/qiwi/pijma-business/compare/2022.7.17-pijma.business-storybook.0.6.1-f0...2022.7.21-pijma.business-storybook.0.7.0-f0) (2022-07-21)
 
 ### Features
