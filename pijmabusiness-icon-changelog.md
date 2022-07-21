@@ -1,3 +1,8 @@
+## [@pijma/business-icon@0.3.1](https://github.com/qiwi/pijma-business/compare/2022.7.21-pijma.business-icon.0.3.0-f0...2022.7.21-pijma.business-icon.0.3.1-f0) (2022-07-21)
+
+### Fixes & improvements
+* fix: untestable icon story [ba0cfb8](https://github.com/qiwi/pijma-business/commit/ba0cfb8d7f78e2aea03f3d9125f06ed7b63e06e2)
+
 ## [@pijma/business-icon@0.3.0](https://github.com/qiwi/pijma-business/compare/2022.7.17-pijma.business-icon.0.2.1-f0...2022.7.21-pijma.business-icon.0.3.0-f0) (2022-07-21)
 
 ### Features
