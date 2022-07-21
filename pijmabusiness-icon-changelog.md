@@ -1,3 +1,11 @@
+## [@pijma/business-icon@0.3.0](https://github.com/qiwi/pijma-business/compare/2022.7.17-pijma.business-icon.0.2.1-f0...2022.7.21-pijma.business-icon.0.3.0-f0) (2022-07-21)
+
+### Features
+* feat: swc [ad75d58](https://github.com/qiwi/pijma-business/commit/ad75d5882b8e4b1f6f187a995be22cb379a9fe68)
+
+### Dependencies
+* perf: @pijma/business-icons updated to 0.1.0
+
 ## [@pijma/business-icon@0.2.1](https://github.com/qiwi/pijma-business/compare/2022.7.15-pijma.business-icon.0.2.0-f0...2022.7.17-pijma.business-icon.0.2.1-f0) (2022-07-17)
 
 ### Fixes & improvements
