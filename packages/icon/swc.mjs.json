@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "jsx": true,
+      "dynamicImport": false,
+      "privateMethod": false,
+      "functionBind": false,
+      "exportDefaultFrom": false,
+      "exportNamespaceFrom": false,
+      "decorators": true,
+      "decoratorsBeforeExport": false,
+      "topLevelAwait": false,
+      "importMeta": false
+    },
+    "target": "es2022",
+    "loose": true,
+    "externalHelpers": true
+  },
+  "module": {
+    "type": "es6"
+  },
+  "minify": false
+}

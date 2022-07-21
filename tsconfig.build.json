@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "rootDir": "./"
+  },
+  "references": [
+    {
+      "path": "packages/button/tsconfig.build.json"
+    },
+    {
+      "path": "packages/heading/tsconfig.build.json"
+    },
+    {
+      "path": "packages/icon/tsconfig.build.json"
+    },
+    {
+      "path": "packages/icons/tsconfig.build.json"
+    },
+    {
+      "path": "packages/paragraph/tsconfig.build.json"
+    },
+    {
+      "path": "packages/theme/tsconfig.build.json"
+    },
+    {
+      "path": "packages/wrapper/tsconfig.build.json"
+    }
+  ],
+  "files": []
+}

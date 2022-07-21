@@ -1565,6 +1565,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.17.2":
+  version: 7.18.9
+  resolution: "@babel/runtime@npm:7.18.9"
+  dependencies:
+    regenerator-runtime: "npm:^0.13.4"
+  checksum: 1581271f6f303662c74e992fc52aaaaa6119eb74ebff5328ff6998a7058795d442d19a5585faa43e344c4e7d48677faf94184a139b5941254069bc0ee579e467
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.0.0, @babel/template@npm:^7.12.7, @babel/template@npm:^7.18.6, @babel/template@npm:^7.3.3":
   version: 7.18.6
   resolution: "@babel/template@npm:7.18.6"
@@ -2312,6 +2321,9 @@ __metadata:
   dependencies:
     "@pijma/business-icon": "workspace:*"
     "@pijma/react-native": "npm:1.4.0"
+    "@swc/cli": "npm:0.1.57"
+    "@swc/core": "npm:1.2.215"
+    "@swc/helpers": "npm:0.4.3"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2325,14 +2337,13 @@ __metadata:
     react-dom: "npm:18.2.0"
     react-native: "npm:0.69.1"
     tsc-esm-fix: "npm:2.18.0"
-    tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
   peerDependencies:
     "@pijma/react-native": ">=1.0.0"
+    "@swc/helpers": ">=0.4.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-native: ">=0.50.0"
-    tslib: ">=2.0.0"
   languageName: unknown
   linkType: soft
 
@@ -2341,6 +2352,9 @@ __metadata:
   resolution: "@pijma/business-heading@workspace:packages/heading"
   dependencies:
     "@pijma/react-native": "npm:1.4.0"
+    "@swc/cli": "npm:0.1.57"
+    "@swc/core": "npm:1.2.215"
+    "@swc/helpers": "npm:0.4.3"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2354,14 +2368,13 @@ __metadata:
     react-dom: "npm:18.2.0"
     react-native: "npm:0.69.1"
     tsc-esm-fix: "npm:2.18.0"
-    tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
   peerDependencies:
     "@pijma/react-native": ">=1.0.0"
+    "@swc/helpers": ">=0.4.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-native: ">=0.50.0"
-    tslib: ">=2.0.0"
   languageName: unknown
   linkType: soft
 
@@ -2370,6 +2383,9 @@ __metadata:
   resolution: "@pijma/business-icon@workspace:packages/icon"
   dependencies:
     "@pijma/business-icons": "workspace:*"
+    "@swc/cli": "npm:0.1.57"
+    "@swc/core": "npm:1.2.215"
+    "@swc/helpers": "npm:0.4.3"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2384,15 +2400,14 @@ __metadata:
     react-native: "npm:0.69.1"
     react-native-svg: "npm:12.3.0"
     tsc-esm-fix: "npm:2.18.0"
-    tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
   peerDependencies:
     "@pijma/react-native": ">=1.0.0"
     "@pijma/react-native-svg": ">=1.0.0"
+    "@swc/helpers": ">=0.4.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-native: ">=0.50.0"
-    tslib: ">=2.0.0"
   languageName: unknown
   linkType: soft
 
@@ -2403,6 +2418,9 @@ __metadata:
     "@pijma/react-native": "npm:1.4.0"
     "@pijma/react-native-svg": "npm:1.4.0"
     "@svgr/cli": "npm:6.2.1"
+    "@swc/cli": "npm:0.1.57"
+    "@swc/core": "npm:1.2.215"
+    "@swc/helpers": "npm:0.4.3"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2417,15 +2435,14 @@ __metadata:
     react-native: "npm:0.69.1"
     react-native-svg: "npm:12.3.0"
     tsc-esm-fix: "npm:2.18.0"
-    tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
   peerDependencies:
     "@pijma/react-native": ">=1.0.0"
     "@pijma/react-native-svg": ">=1.0.0"
+    "@swc/helpers": ">=0.4.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-native: ">=0.50.0"
-    tslib: ">=2.0.0"
   languageName: unknown
   linkType: soft
 
@@ -2434,6 +2451,9 @@ __metadata:
   resolution: "@pijma/business-paragraph@workspace:packages/paragraph"
   dependencies:
     "@pijma/react-native": "npm:1.4.0"
+    "@swc/cli": "npm:0.1.57"
+    "@swc/core": "npm:1.2.215"
+    "@swc/helpers": "npm:0.4.3"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2447,14 +2467,13 @@ __metadata:
     react-dom: "npm:18.2.0"
     react-native: "npm:0.69.1"
     tsc-esm-fix: "npm:2.18.0"
-    tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
   peerDependencies:
     "@pijma/react-native": ">=1.0.0"
+    "@swc/helpers": ">=0.4.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-native: ">=0.50.0"
-    tslib: ">=2.0.0"
   languageName: unknown
   linkType: soft
 
@@ -2483,6 +2502,7 @@ __metadata:
     "@storybook/manager-webpack5": "npm:6.4.22"
     "@storybook/react": "npm:6.4.22"
     "@storybook/testing-library": "npm:0.0.13"
+    "@swc/helpers": "npm:0.4.3"
     "@testing-library/jest-dom": "npm:5.16.4"
     babel-loader: "npm:8.2.5"
     babel-plugin-react-native-web: "npm:0.18.6"
@@ -2501,8 +2521,8 @@ __metadata:
     react-native-svg: "npm:12.3.0"
     react-native-web: "npm:0.18.6"
     react-test-renderer: "npm:18.2.0"
+    storybook-addon-swc: "npm:1.1.7"
     tsconfig-paths-webpack-plugin: "npm:3.5.2"
-    tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
     webpack: "npm:5.73.0"
   languageName: unknown
@@ -2513,6 +2533,9 @@ __metadata:
   resolution: "@pijma/business-theme@workspace:packages/theme"
   dependencies:
     "@pijma/react-native": "npm:1.4.0"
+    "@swc/cli": "npm:0.1.57"
+    "@swc/core": "npm:1.2.215"
+    "@swc/helpers": "npm:0.4.3"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2526,14 +2549,13 @@ __metadata:
     react-dom: "npm:18.2.0"
     react-native: "npm:0.69.1"
     tsc-esm-fix: "npm:2.18.0"
-    tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
   peerDependencies:
     "@pijma/react-native": ">=1.0.0"
+    "@swc/helpers": ">=0.4.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-native: ">=0.50.0"
-    tslib: ">=2.0.0"
   languageName: unknown
   linkType: soft
 
@@ -2543,6 +2565,9 @@ __metadata:
   dependencies:
     "@pijma/business-theme": "workspace:*"
     "@pijma/react-native": "npm:1.4.0"
+    "@swc/cli": "npm:0.1.57"
+    "@swc/core": "npm:1.2.215"
+    "@swc/helpers": "npm:0.4.3"
     "@types/react": "npm:18.0.15"
     "@types/react-dom": "npm:18.0.6"
     "@types/react-native": "npm:0.69.2"
@@ -2557,14 +2582,13 @@ __metadata:
     react-native: "npm:0.69.1"
     react-native-svg: "npm:12.3.0"
     tsc-esm-fix: "npm:2.18.0"
-    tslib: "npm:2.4.0"
     typescript: "npm:4.7.4"
   peerDependencies:
     "@pijma/react-native": ">=1.0.0"
+    "@swc/helpers": ">=0.4.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-native: ">=0.50.0"
-    tslib: ">=2.0.0"
   languageName: unknown
   linkType: soft
 
@@ -4406,6 +4430,318 @@ __metadata:
   peerDependencies:
     "@svgr/core": ^6.0.0
   checksum: 185d84ea5c44022199049e125915cf2ad6690494839f49ca90e2dd56ba43222cdcbeccc0a2cc2ffb1371d8a5dfa570ff53c1b8a2dd3ed7e1605f07012e4a4902
+  languageName: node
+  linkType: hard
+
+"@swc/cli@npm:0.1.57":
+  version: 0.1.57
+  resolution: "@swc/cli@npm:0.1.57"
+  dependencies:
+    commander: "npm:^7.1.0"
+    fast-glob: "npm:^3.2.5"
+    slash: "npm:3.0.0"
+    source-map: "npm:^0.7.3"
+  peerDependencies:
+    "@swc/core": ^1.2.66
+    chokidar: ^3.5.1
+  peerDependenciesMeta:
+    chokidar:
+      optional: true
+  bin:
+    spack: bin/spack.js
+    swc: bin/swc.js
+  checksum: bef2ebf226a4226a517a9dece07647901a9b7ca2e592fca80f2082c50c97e1c1360c8c57a14d5fdcd7db73cd0343d8710ec3d3684780f1c7aa9708145d92a33b
+  languageName: node
+  linkType: hard
+
+"@swc/core-android-arm-eabi@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-android-arm-eabi@npm:1.2.216"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@swc/core-android-arm-eabi@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-android-arm-eabi@npm:1.2.218"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@swc/core-android-arm64@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-android-arm64@npm:1.2.216"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-android-arm64@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-android-arm64@npm:1.2.218"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-arm64@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-darwin-arm64@npm:1.2.216"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-arm64@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-darwin-arm64@npm:1.2.218"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-x64@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-darwin-x64@npm:1.2.216"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-x64@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-darwin-x64@npm:1.2.218"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-freebsd-x64@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-freebsd-x64@npm:1.2.216"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-freebsd-x64@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-freebsd-x64@npm:1.2.218"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm-gnueabihf@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.216"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm-gnueabihf@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.218"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-gnu@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.216"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-gnu@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.218"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-musl@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-linux-arm64-musl@npm:1.2.216"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-musl@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-linux-arm64-musl@npm:1.2.218"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-gnu@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-linux-x64-gnu@npm:1.2.216"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-gnu@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-linux-x64-gnu@npm:1.2.218"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-musl@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-linux-x64-musl@npm:1.2.216"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-musl@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-linux-x64-musl@npm:1.2.218"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-arm64-msvc@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.216"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-arm64-msvc@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.218"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-ia32-msvc@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.216"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-ia32-msvc@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.218"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-x64-msvc@npm:1.2.216":
+  version: 1.2.216
+  resolution: "@swc/core-win32-x64-msvc@npm:1.2.216"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-x64-msvc@npm:1.2.218":
+  version: 1.2.218
+  resolution: "@swc/core-win32-x64-msvc@npm:1.2.218"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core@npm:1.2.215":
+  version: 1.2.215
+  resolution: "@swc/core@npm:1.2.215"
+  dependencies:
+    "@swc/core-android-arm-eabi": "npm:1.2.216"
+    "@swc/core-android-arm64": "npm:1.2.216"
+    "@swc/core-darwin-arm64": "npm:1.2.216"
+    "@swc/core-darwin-x64": "npm:1.2.216"
+    "@swc/core-freebsd-x64": "npm:1.2.216"
+    "@swc/core-linux-arm-gnueabihf": "npm:1.2.216"
+    "@swc/core-linux-arm64-gnu": "npm:1.2.216"
+    "@swc/core-linux-arm64-musl": "npm:1.2.216"
+    "@swc/core-linux-x64-gnu": "npm:1.2.216"
+    "@swc/core-linux-x64-musl": "npm:1.2.216"
+    "@swc/core-win32-arm64-msvc": "npm:1.2.216"
+    "@swc/core-win32-ia32-msvc": "npm:1.2.216"
+    "@swc/core-win32-x64-msvc": "npm:1.2.216"
+  dependenciesMeta:
+    "@swc/core-android-arm-eabi":
+      optional: true
+    "@swc/core-android-arm64":
+      optional: true
+    "@swc/core-darwin-arm64":
+      optional: true
+    "@swc/core-darwin-x64":
+      optional: true
+    "@swc/core-freebsd-x64":
+      optional: true
+    "@swc/core-linux-arm-gnueabihf":
+      optional: true
+    "@swc/core-linux-arm64-gnu":
+      optional: true
+    "@swc/core-linux-arm64-musl":
+      optional: true
+    "@swc/core-linux-x64-gnu":
+      optional: true
+    "@swc/core-linux-x64-musl":
+      optional: true
+    "@swc/core-win32-arm64-msvc":
+      optional: true
+    "@swc/core-win32-ia32-msvc":
+      optional: true
+    "@swc/core-win32-x64-msvc":
+      optional: true
+  bin:
+    swcx: run_swcx.js
+  checksum: 61b5eba521d94105ef3d769b6d0187938b1e27fef188a06a4be731b3b120832a2dcae79b2e88af9e63a0eb6ed7f1955eda7d33d953556217e6e866ee7ca72a15
+  languageName: node
+  linkType: hard
+
+"@swc/core@npm:^1.2.152":
+  version: 1.2.218
+  resolution: "@swc/core@npm:1.2.218"
+  dependencies:
+    "@swc/core-android-arm-eabi": "npm:1.2.218"
+    "@swc/core-android-arm64": "npm:1.2.218"
+    "@swc/core-darwin-arm64": "npm:1.2.218"
+    "@swc/core-darwin-x64": "npm:1.2.218"
+    "@swc/core-freebsd-x64": "npm:1.2.218"
+    "@swc/core-linux-arm-gnueabihf": "npm:1.2.218"
+    "@swc/core-linux-arm64-gnu": "npm:1.2.218"
+    "@swc/core-linux-arm64-musl": "npm:1.2.218"
+    "@swc/core-linux-x64-gnu": "npm:1.2.218"
+    "@swc/core-linux-x64-musl": "npm:1.2.218"
+    "@swc/core-win32-arm64-msvc": "npm:1.2.218"
+    "@swc/core-win32-ia32-msvc": "npm:1.2.218"
+    "@swc/core-win32-x64-msvc": "npm:1.2.218"
+  dependenciesMeta:
+    "@swc/core-android-arm-eabi":
+      optional: true
+    "@swc/core-android-arm64":
+      optional: true
+    "@swc/core-darwin-arm64":
+      optional: true
+    "@swc/core-darwin-x64":
+      optional: true
+    "@swc/core-freebsd-x64":
+      optional: true
+    "@swc/core-linux-arm-gnueabihf":
+      optional: true
+    "@swc/core-linux-arm64-gnu":
+      optional: true
+    "@swc/core-linux-arm64-musl":
+      optional: true
+    "@swc/core-linux-x64-gnu":
+      optional: true
+    "@swc/core-linux-x64-musl":
+      optional: true
+    "@swc/core-win32-arm64-msvc":
+      optional: true
+    "@swc/core-win32-ia32-msvc":
+      optional: true
+    "@swc/core-win32-x64-msvc":
+      optional: true
+  bin:
+    swcx: run_swcx.js
+  checksum: 222b4a026a8f4b5786612d68e0a908df6e81b7f03ae1dbafae1b2d18dfc35b499dc46164c5768febe1ec3549fb84e1aedad87334b102f874eb444eb5a5863c80
+  languageName: node
+  linkType: hard
+
+"@swc/helpers@npm:0.4.3":
+  version: 0.4.3
+  resolution: "@swc/helpers@npm:0.4.3"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 4e74a9330ae648229f8c026096bdfb1de06586ad554074ea62a93134b5c15c9a5e81df78729bc0f4cfd1d83e3cf7479aabcae033bc06c579cde3ecea6d6f5bf5
   languageName: node
   linkType: hard
 
@@ -7420,7 +7756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^7.2.0":
+"commander@npm:^7.1.0, commander@npm:^7.2.0":
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
   checksum: 1270a98c752348d62803dd6214bba584a13e5c80e0d32d590740f26c534209882a93daf471697326ad80b3f4f0417df31aca7b127e01efee58fe883b47c1a492
@@ -9429,7 +9765,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.5, fast-glob@npm:^3.2.9":
   version: 3.2.11
   resolution: "fast-glob@npm:3.2.11"
   dependencies:
@@ -16844,17 +17180,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"slash@npm:3.0.0, slash@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "slash@npm:3.0.0"
+  checksum: b88a0f1086e3cd20c8b61f50d8afff5fba83f95167a86432f54387565c9424e5d1970612371f768c128ed4b5b1c427120382bafc8c9edf0b3737eb226b733687
+  languageName: node
+  linkType: hard
+
 "slash@npm:^2.0.0":
   version: 2.0.0
   resolution: "slash@npm:2.0.0"
   checksum: e53840c4398131459758dcad3ed7f44346198f432f7c7ed96d75b750d3e1814a02368e10252bb3ee312bc87379359887ce0783a91a2a391121c52cef93411ac8
-  languageName: node
-  linkType: hard
-
-"slash@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "slash@npm:3.0.0"
-  checksum: b88a0f1086e3cd20c8b61f50d8afff5fba83f95167a86432f54387565c9424e5d1970612371f768c128ed4b5b1c427120382bafc8c9edf0b3737eb226b733687
   languageName: node
   linkType: hard
 
@@ -17173,6 +17509,26 @@ __metadata:
   version: 2.13.2
   resolution: "store2@npm:2.13.2"
   checksum: 180c66724ad144c7f65bfd39b82cf5176d81d9b55b35ba4cfd6dacc52eeca20948d0aaddcbb2ca00d835fa694a620e7cbc4c7957612e47a29c7e06df256f5fd2
+  languageName: node
+  linkType: hard
+
+"storybook-addon-swc@npm:1.1.7":
+  version: 1.1.7
+  resolution: "storybook-addon-swc@npm:1.1.7"
+  dependencies:
+    "@babel/runtime": "npm:^7.17.2"
+    "@swc/core": "npm:^1.2.152"
+    deepmerge: "npm:^4.2.2"
+    swc-loader: "npm:^0.1.15"
+  peerDependencies:
+    terser-webpack-plugin: ^4.0.0 || ^5.0.0
+    webpack: ^4.0.0 || ^5.0.0
+  peerDependenciesMeta:
+    terser-webpack-plugin:
+      optional: true
+    webpack:
+      optional: true
+  checksum: d26542104d6f8eaf89e7dc82fbdf95c898d9478098f64bca03e2e0df19c11dacafc0f62b19f837bf39865d106f6c022b1f2da54a57f3843413bd2d590e407613
   languageName: node
   linkType: hard
 
@@ -17514,6 +17870,16 @@ __metadata:
   bin:
     svgo: bin/svgo
   checksum: f475df0d8cf24ad6c8498049abd1bc07753f77aa96ae0ca28f323b7e236fc2d94e680a694e8783a95db9e50d4275b76aa993653c45ed60dc985d8dd8609e2650
+  languageName: node
+  linkType: hard
+
+"swc-loader@npm:^0.1.15":
+  version: 0.1.16
+  resolution: "swc-loader@npm:0.1.16"
+  peerDependencies:
+    "@swc/core": ^1.2.147
+    webpack: ">=2"
+  checksum: da3eaec9f57f0fbff4de3525bd6e3b47264ee0e7469795a619bf0077f10800a11c1c5b1ebf49349aa6b8bad411a309d7324175116b84a8693a807c3ddd982df6
   languageName: node
   linkType: hard
 
@@ -17956,17 +18322,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.4.0, tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0":
-  version: 2.4.0
-  resolution: "tslib@npm:2.4.0"
-  checksum: 022a70708abbc3491734959effd9a87e6e0af5932b61d0c9f1d07b8b80cabbbfc9fc9e9c0fe86e5ab2d32d766ae30117edf00b02d170ff255ab7e60361a4b711
-  languageName: node
-  linkType: hard
-
 "tslib@npm:^1.8.1":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: 441af59dc42ad4ae57140e62cb362369620c6076845c2c2b0ecc863c1d719ce24fdbc301e9053433fef43075e061bf84b702318ff1204b496a5bba10baf9eb9f
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "tslib@npm:2.4.0"
+  checksum: 022a70708abbc3491734959effd9a87e6e0af5932b61d0c9f1d07b8b80cabbbfc9fc9e9c0fe86e5ab2d32d766ae30117edf00b02d170ff255ab7e60361a4b711
   languageName: node
   linkType: hard
 

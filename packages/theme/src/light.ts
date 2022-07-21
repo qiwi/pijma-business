@@ -1,4 +1,4 @@
-import { Theme } from './Theme'
+import { Theme } from '@pijma/react-native'
 
 const fontFamilySussieIntl = 'Sussie Intl'
 const fontFamilyAgipo = 'Agipo'

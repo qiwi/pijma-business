@@ -19,7 +19,10 @@
     "sb:serve": "yarn workspace @pijma/business-storybook serve",
     "sb:clean": "yarn workspace @pijma/business-storybook clean",
     "clean": "yarn workspaces foreach --parallel --topological-dev --no-private run clean",
-    "build": "yarn workspaces foreach --parallel --topological-dev --no-private run build",
+    "build": "concurrently 'npm:build:*'",
+    "build:mjs": "yarn workspaces foreach --parallel --topological-dev --no-private run build:mjs",
+    "build:cjs": "yarn workspaces foreach --parallel --topological-dev --no-private run build:cjs",
+    "build:tsc": "tsc -b tsconfig.build.json",
     "style": "yarn workspaces foreach --parallel --topological-dev --no-private run style",
     "test": "exit 0"
   },
