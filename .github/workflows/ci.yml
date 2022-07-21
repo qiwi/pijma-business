@@ -18,11 +18,17 @@ jobs:
           node-version: '16'
           cache: 'yarn'
       - name: Install
-        run: yarn install --immutable
+        run: |
+          yarn install --immutable
+          npx playwright install --with-deps
       - name: Build
-        run: yarn build
-      - name: Build Storybook
-        run: yarn sb:build
+        run: |
+          yarn build
+          yarn sb:build
+      - name: Test
+        run: |
+          yarn test
+          npx concurrently -k -s first -n 'serve,test' 'npm:sb:serve' 'npm:sb:test'
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

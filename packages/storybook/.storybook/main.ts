@@ -18,6 +18,10 @@ const config: StorybookConfig = {
     check: false,
     reactDocgen: 'react-docgen-typescript',
   },
+  features: {
+    interactionsDebugger: true,
+    buildStoriesJson: true,
+  },
   // @ts-ignore
   webpackFinal: async (config) => ({
     ...config,

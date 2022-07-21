@@ -8,6 +8,7 @@
     "start": "start-storybook --quiet --port 8080",
     "build": "build-storybook --quiet --output-dir lib",
     "serve": "http-server lib --port 8080 --silent",
+    "test": "test-storybook --index-json --url http://localhost:8080",
     "style": "eslint --no-error-on-unmatched-pattern --fix src && prettier --loglevel silent --write src"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "@storybook/jest": "0.0.10",
     "@storybook/manager-webpack5": "6.4.22",
     "@storybook/react": "6.4.22",
+    "@storybook/test-runner": "0.4.0",
     "@storybook/testing-library": "0.0.13",
     "@swc/helpers": "0.4.3",
     "@testing-library/jest-dom": "5.16.4",

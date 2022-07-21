@@ -18,6 +18,7 @@
     "sb:build": "yarn workspace @pijma/business-storybook build",
     "sb:serve": "yarn workspace @pijma/business-storybook serve",
     "sb:clean": "yarn workspace @pijma/business-storybook clean",
+    "sb:test": "yarn workspace @pijma/business-storybook test",
     "clean": "yarn workspaces foreach --parallel --topological-dev --no-private run clean",
     "build": "concurrently 'npm:build:*'",
     "build:mjs": "yarn workspaces foreach --parallel --topological-dev --no-private run build:mjs",
@@ -33,11 +34,14 @@
   "resolutions": {
     "jest": "27.5.1",
     "jest-runner": "27.5.1",
+    "jest-environment-node": "27.5.1",
     "jest-watcher": "27.5.1",
     "jest-regex-util": "27.5.1",
-    "@types/jest": "27.5.2",
+    "@jest/transform": "27.5.1",
+    "@jest/types": "27.5.1",
     "@storybook/instrumenter": "6.4.22",
-    "@storybook/client-logger": "6.4.22"
+    "@storybook/client-logger": "6.4.22",
+    "@types/jest": "27.5.2"
   },
   "packageManager": "yarn@4.0.0-rc.9"
 }
