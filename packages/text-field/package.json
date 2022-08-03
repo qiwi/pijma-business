@@ -1,0 +1,69 @@
+{
+  "name": "@pijma/business-text-field",
+  "description": "Pijma Business TextField",
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./lib/cjs/index.cjs",
+  "module": "./lib/mjs/index.mjs",
+  "types": "./lib/dts/index.d.ts",
+  "react-native": "./lib/jsx/index.js",
+  "exports": {
+    ".": {
+      "types": "./lib/dts/index.d.ts",
+      "import": "./lib/mjs/index.mjs",
+      "require": "./lib/cjs/index.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiwi/pijma-business.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qiwi/pijma-business/issues"
+  },
+  "homepage": "https://qiwi.github.io/pijma-business/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rimraf lib node_modules",
+    "build": "concurrently 'npm:build:*'",
+    "build:mjs": "swc src -q -d lib/mjs --source-maps --config-file swc.mjs.json && tsc-esm-fix --target lib/mjs --ext .mjs",
+    "build:cjs": "swc src -q -d lib/cjs --source-maps --config-file swc.cjs.json && tsc-esm-fix --target lib/cjs --ext .cjs",
+    "style": "eslint --no-error-on-unmatched-pattern --fix src && prettier --loglevel silent --write src"
+  },
+  "peerDependencies": {
+    "@pijma/react-native": ">=1.0.0",
+    "@swc/helpers": ">=0.4.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "react-native": ">=0.50.0"
+  },
+  "devDependencies": {
+    "@pijma/react-native": "1.4.0",
+    "@swc/cli": "0.1.57",
+    "@swc/core": "1.2.215",
+    "@swc/helpers": "0.4.3",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "@types/react-native": "0.69.2",
+    "concurrently": "7.2.2",
+    "eslint": "8.19.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-qiwi": "1.17.3",
+    "prettier": "2.7.1",
+    "prettier-config-qiwi": "1.7.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.69.1",
+    "tsc-esm-fix": "2.18.0",
+    "typescript": "4.7.4"
+  },
+  "packageManager": "yarn@4.0.0-rc.9"
+}

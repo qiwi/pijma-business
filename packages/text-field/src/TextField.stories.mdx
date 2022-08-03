@@ -1,0 +1,127 @@
+import { TextField as StatelessTextField } from './TextField'
+import { Meta, ArgsTable, Canvas, Story } from '@storybook/addon-docs'
+import { View } from '@pijma/react-native'
+import { useState } from 'react'
+
+<Meta
+  title="Формы/Текстовое поле"
+  component={StatelessTextField}
+  decorators={[(Story) => <View width={['100%', 320]}>{Story()}</View>]}
+/>
+
+export const TextField = (props) => {
+  const [value, setValue] = useState(props.value || '')
+  return <StatelessTextField {...props} value={value} onModify={setValue} />
+}
+
+# Текстовое поле
+
+<ArgsTable of={StatelessTextField} />
+
+## Редактируемо
+
+<Canvas>
+  <Story name="Редактируемо">
+    <TextField label="Заголовок" />
+    <View height={6} />
+    <TextField label="Заголовок" value="Значение" />
+    <View height={6} />
+    <TextField label="Заголовок" description="Описание" />
+    <View height={6} />
+    <TextField label="Заголовок" description="Описание" value="Значение" />
+    <View height={6} />
+    <TextField label="Заголовок" invalid />
+    <View height={6} />
+    <TextField label="Заголовок" value="Значение" invalid />
+    <View height={6} />
+    <TextField label="Заголовок" description="Описание" invalid />
+    <View height={6} />
+    <TextField
+      label="Заголовок"
+      description="Описание"
+      value="Значение"
+      invalid
+    />
+  </Story>
+</Canvas>
+
+## Заблокировано
+
+<Canvas>
+  <Story name="Заблокировано">
+    <TextField label="Заголовок" disabled />
+    <View height={6} />
+    <TextField label="Заголовок" disabled value="Значение" />
+    <View height={6} />
+    <TextField label="Заголовок" disabled description="Описание" />
+    <View height={6} />
+    <TextField
+      label="Заголовок"
+      disabled
+      description="Описание"
+      value="Значение"
+    />
+    <View height={6} />
+    <TextField label="Заголовок" disabled invalid />
+    <View height={6} />
+    <TextField label="Заголовок" disabled value="Значение" invalid />
+    <View height={6} />
+    <TextField label="Заголовок" disabled description="Описание" invalid />
+    <View height={6} />
+    <TextField
+      label="Заголовок"
+      disabled
+      description="Описание"
+      value="Значение"
+      invalid
+    />
+  </Story>
+</Canvas>
+
+## Сорок раз вокруг ноги, через шею в сапоги
+
+<Canvas>
+  <Story name="Сорок раз вокруг ноги, через шею в сапоги">
+    <TextField label="Заголовок, длинный заголовок, очень длинный заголовок, ну очень длинный заголовок" />
+    <View height={6} />
+    <TextField
+      label="Заголовок, длинный заголовок, очень длинный заголовок, ну очень длинный заголовок"
+      value="Значение, длинное значение, очень длинное значение, ну очень длинное значение"
+    />
+    <View height={6} />
+    <TextField
+      label="Заголовок, длинный заголовок, очень длинный заголовок, ну очень длинный заголовок"
+      description="Описание, длинное описание, очень длинное описание, ну очень длинное описание"
+    />
+    <View height={6} />
+    <TextField
+      label="Заголовок, длинный заголовок, очень длинный заголовок, ну очень длинный заголовок"
+      description="Описание, длинное описание, очень длинное описание, ну очень длинное описание"
+      value="Значение, длинное значение, очень длинное значение, ну очень длинное значение"
+    />
+    <View height={6} />
+    <TextField
+      label="Заголовок, длинный заголовок, очень длинный заголовок, ну очень длинный заголовок"
+      invalid
+    />
+    <View height={6} />
+    <TextField
+      label="Заголовок, длинный заголовок, очень длинный заголовок, ну очень длинный заголовок"
+      value="Значение, длинное значение, очень длинное значение, ну очень длинное значение"
+      invalid
+    />
+    <View height={6} />
+    <TextField
+      label="Заголовок, длинный заголовок, очень длинный заголовок, ну очень длинный заголовок"
+      description="Описание, длинное описание, очень длинное описание, ну очень длинное описание"
+      invalid
+    />
+    <View height={6} />
+    <TextField
+      label="Заголовок, длинный заголовок, очень длинный заголовок, ну очень длинный заголовок"
+      description="Описание, длинное описание, очень длинное описание, ну очень длинное описание"
+      value="Значение, длинное значение, очень длинное значение, ну очень длинное значение"
+      invalid
+    />
+  </Story>
+</Canvas>

@@ -19,6 +19,9 @@
       "path": "packages/paragraph/tsconfig.build.json"
     },
     {
+      "path": "packages/text-field/tsconfig.build.json"
+    },
+    {
       "path": "packages/theme/tsconfig.build.json"
     },
     {

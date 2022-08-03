@@ -1,0 +1,82 @@
+import { useState } from 'react'
+import { View } from '@pijma/react-native'
+import { Meta, Canvas, Story } from '@storybook/addon-docs'
+import { within, userEvent, waitFor } from '@storybook/testing-library'
+import { expect } from '@storybook/jest'
+
+import { TextField } from './TextField'
+
+<Meta
+  title="Playground/Формы"
+  component={TextField}
+  decorators={[(Story) => <View width={['100%', 320]}>{Story()}</View>]}
+  argTypes={{
+    invalid: {
+      control: 'boolean',
+    },
+    disabled: {
+      control: 'boolean',
+    },
+    onModify: {
+      action: 'modified',
+    },
+  }}
+  args={{
+    label: 'Заголовок',
+    description: '',
+    invalid: false,
+    disabled: false,
+    testID: 'text-field',
+  }}
+  parameters={{
+    viewMode: 'story',
+    controls: {
+      include: [
+        'label',
+        'description',
+        'invalid',
+        'disabled',
+        'testID',
+        'onModify',
+      ],
+    },
+  }}
+/>
+
+export const Template = (props) => {
+  const [value, setValue] = useState('')
+  return (
+    <TextField
+      {...props}
+      value={value}
+      onModify={(value) => {
+        setValue(value)
+        props.onModify(value)
+      }}
+    />
+  )
+}
+
+<Canvas>
+  <Story
+    name="Текстовое поле"
+    play={async (context) => {
+      const { args, canvasElement } = context
+      const canvas = within(canvasElement)
+      const element = canvas.getByTestId(args.testID)
+      const input = element.querySelector('input')
+      await new Promise((r) => setTimeout(r, 1000))
+      await userEvent.hover(input)
+      await new Promise((r) => setTimeout(r, 1000))
+      await userEvent.click(input)
+      await new Promise((r) => setTimeout(r, 1000))
+      const value = 'Значение'
+      await userEvent.type(input, value, {
+        delay: 1000 / value.length,
+      })
+      await waitFor(() => expect(input.value).toBe(args.disabled ? '' : value))
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>

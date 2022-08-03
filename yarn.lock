@@ -2442,6 +2442,7 @@ __metadata:
     "@pijma/business-icon": "workspace:*"
     "@pijma/business-icons": "workspace:*"
     "@pijma/business-paragraph": "workspace:*"
+    "@pijma/business-text-field": "workspace:*"
     "@pijma/business-wrapper": "workspace:*"
     "@pijma/react-native": "npm:1.4.0"
     "@pijma/react-native-svg": "npm:1.4.0"
@@ -2478,6 +2479,37 @@ __metadata:
     tsconfig-paths-webpack-plugin: "npm:3.5.2"
     typescript: "npm:4.7.4"
     webpack: "npm:5.73.0"
+  languageName: unknown
+  linkType: soft
+
+"@pijma/business-text-field@workspace:*, @pijma/business-text-field@workspace:packages/text-field":
+  version: 0.0.0-use.local
+  resolution: "@pijma/business-text-field@workspace:packages/text-field"
+  dependencies:
+    "@pijma/react-native": "npm:1.4.0"
+    "@swc/cli": "npm:0.1.57"
+    "@swc/core": "npm:1.2.215"
+    "@swc/helpers": "npm:0.4.3"
+    "@types/react": "npm:18.0.15"
+    "@types/react-dom": "npm:18.0.6"
+    "@types/react-native": "npm:0.69.2"
+    concurrently: "npm:7.2.2"
+    eslint: "npm:8.19.0"
+    eslint-config-prettier: "npm:8.5.0"
+    eslint-config-qiwi: "npm:1.17.3"
+    prettier: "npm:2.7.1"
+    prettier-config-qiwi: "npm:1.7.2"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    react-native: "npm:0.69.1"
+    tsc-esm-fix: "npm:2.18.0"
+    typescript: "npm:4.7.4"
+  peerDependencies:
+    "@pijma/react-native": ">=1.0.0"
+    "@swc/helpers": ">=0.4.0"
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+    react-native: ">=0.50.0"
   languageName: unknown
   linkType: soft
 
