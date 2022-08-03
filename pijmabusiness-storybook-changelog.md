@@ -1,3 +1,11 @@
+## [@pijma/business-storybook@0.9.0](https://github.com/qiwi/pijma-business/compare/2022.7.21-pijma.business-storybook.0.8.0-f0...2022.8.3-pijma.business-storybook.0.9.0-f0) (2022-08-03)
+
+### Features
+* feat: add text-field [1b0da65](https://github.com/qiwi/pijma-business/commit/1b0da65a09add949b879172f70020e51c776c491)
+
+### Dependencies
+* perf: @pijma/business-text-field updated to 0.1.0
+
 ## [@pijma/business-storybook@0.8.0](https://github.com/qiwi/pijma-business/compare/2022.7.21-pijma.business-storybook.0.7.0-f0...2022.7.21-pijma.business-storybook.0.8.0-f0) (2022-07-21)
 
 ### Features
