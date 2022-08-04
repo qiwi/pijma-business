@@ -14,22 +14,11 @@
     "packages/*"
   ],
   "scripts": {
-    "sb:start": "yarn workspace @pijma/business-storybook start",
-    "sb:build": "yarn workspace @pijma/business-storybook build",
-    "sb:serve": "yarn workspace @pijma/business-storybook serve",
-    "sb:clean": "yarn workspace @pijma/business-storybook clean",
-    "sb:test": "yarn workspace @pijma/business-storybook test",
-    "clean": "yarn workspaces foreach --parallel --topological-dev --no-private run clean",
-    "build": "concurrently 'npm:build:*'",
-    "build:mjs": "yarn workspaces foreach --parallel --topological-dev --no-private run build:mjs",
-    "build:cjs": "yarn workspaces foreach --parallel --topological-dev --no-private run build:cjs",
-    "build:tsc": "tsc -b tsconfig.build.json",
-    "style": "yarn workspaces foreach --parallel --topological-dev --no-private run style",
-    "test": "exit 0"
-  },
-  "devDependencies": {
-    "concurrently": "7.2.2",
-    "typescript": "4.7.4"
+    "start": "yarn workspaces foreach -vip run start",
+    "clean": "yarn workspaces foreach -vip run clean",
+    "build": "yarn workspaces foreach -vip run build",
+    "style": "yarn workspaces foreach -vip run style",
+    "test": "yarn workspaces foreach -vip run test"
   },
   "resolutions": {
     "jest": "27.5.1",

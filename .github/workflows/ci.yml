@@ -20,15 +20,11 @@ jobs:
       - name: Install
         run: |
           yarn install --immutable
-          npx playwright install --with-deps
+          npx playwright install --with-deps chromium
       - name: Build
-        run: |
-          yarn build
-          yarn sb:build
+        run: yarn build
       - name: Test
-        run: |
-          yarn test
-          npx concurrently -k -s first -n 'serve,test' 'npm:sb:serve' 'npm:sb:test'
+        run: yarn test
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

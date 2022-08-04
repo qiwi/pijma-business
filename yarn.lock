@@ -55,7 +55,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.18.6, @babel/core@npm:^7.1.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.14.0, @babel/core@npm:^7.15.5, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5, @babel/core@npm:^7.8.0":
+"@babel/core@npm:7.18.6, @babel/core@npm:^7.1.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.14.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5, @babel/core@npm:^7.8.0":
   version: 7.18.6
   resolution: "@babel/core@npm:7.18.6"
   dependencies:
@@ -1603,7 +1603,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.0.0, @babel/types@npm:^7.12.11, @babel/types@npm:^7.12.7, @babel/types@npm:^7.15.6, @babel/types@npm:^7.18.6, @babel/types@npm:^7.18.7, @babel/types@npm:^7.18.8, @babel/types@npm:^7.2.0, @babel/types@npm:^7.3.0, @babel/types@npm:^7.3.3, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.12.11, @babel/types@npm:^7.12.7, @babel/types@npm:^7.18.6, @babel/types@npm:^7.18.7, @babel/types@npm:^7.18.8, @babel/types@npm:^7.2.0, @babel/types@npm:^7.3.0, @babel/types@npm:^7.3.3, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
   version: 7.18.8
   resolution: "@babel/types@npm:7.18.8"
   dependencies:
@@ -2272,30 +2272,7 @@ __metadata:
   resolution: "@pijma/business-button@workspace:packages/button"
   dependencies:
     "@pijma/business-icon": "workspace:*"
-    "@pijma/react-native": "npm:1.4.0"
-    "@swc/cli": "npm:0.1.57"
-    "@swc/core": "npm:1.2.215"
-    "@swc/helpers": "npm:0.4.3"
-    "@types/react": "npm:18.0.15"
-    "@types/react-dom": "npm:18.0.6"
-    "@types/react-native": "npm:0.69.2"
-    concurrently: "npm:7.2.2"
-    eslint: "npm:8.19.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-config-qiwi: "npm:1.17.3"
-    prettier: "npm:2.7.1"
-    prettier-config-qiwi: "npm:1.7.2"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-native: "npm:0.69.1"
-    tsc-esm-fix: "npm:2.18.0"
-    typescript: "npm:4.7.4"
-  peerDependencies:
-    "@pijma/react-native": ">=1.0.0"
-    "@swc/helpers": ">=0.4.0"
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-    react-native: ">=0.50.0"
+    "@pijma/business-infra": "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -2303,30 +2280,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-heading@workspace:packages/heading"
   dependencies:
-    "@pijma/react-native": "npm:1.4.0"
-    "@swc/cli": "npm:0.1.57"
-    "@swc/core": "npm:1.2.215"
-    "@swc/helpers": "npm:0.4.3"
-    "@types/react": "npm:18.0.15"
-    "@types/react-dom": "npm:18.0.6"
-    "@types/react-native": "npm:0.69.2"
-    concurrently: "npm:7.2.2"
-    eslint: "npm:8.19.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-config-qiwi: "npm:1.17.3"
-    prettier: "npm:2.7.1"
-    prettier-config-qiwi: "npm:1.7.2"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-native: "npm:0.69.1"
-    tsc-esm-fix: "npm:2.18.0"
-    typescript: "npm:4.7.4"
-  peerDependencies:
-    "@pijma/react-native": ">=1.0.0"
-    "@swc/helpers": ">=0.4.0"
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-    react-native: ">=0.50.0"
+    "@pijma/business-infra": "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -2335,31 +2289,7 @@ __metadata:
   resolution: "@pijma/business-icon@workspace:packages/icon"
   dependencies:
     "@pijma/business-icons": "workspace:*"
-    "@swc/cli": "npm:0.1.57"
-    "@swc/core": "npm:1.2.215"
-    "@swc/helpers": "npm:0.4.3"
-    "@types/react": "npm:18.0.15"
-    "@types/react-dom": "npm:18.0.6"
-    "@types/react-native": "npm:0.69.2"
-    concurrently: "npm:7.2.2"
-    eslint: "npm:8.19.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-config-qiwi: "npm:1.17.3"
-    prettier: "npm:2.7.1"
-    prettier-config-qiwi: "npm:1.7.2"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-native: "npm:0.69.1"
-    react-native-svg: "npm:12.3.0"
-    tsc-esm-fix: "npm:2.18.0"
-    typescript: "npm:4.7.4"
-  peerDependencies:
-    "@pijma/react-native": ">=1.0.0"
-    "@pijma/react-native-svg": ">=1.0.0"
-    "@swc/helpers": ">=0.4.0"
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-    react-native: ">=0.50.0"
+    "@pijma/business-infra": "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -2367,9 +2297,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-icons@workspace:packages/icons"
   dependencies:
+    "@pijma/business-infra": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"@pijma/business-infra@workspace:*, @pijma/business-infra@workspace:packages/infra":
+  version: 0.0.0-use.local
+  resolution: "@pijma/business-infra@workspace:packages/infra"
+  dependencies:
     "@pijma/react-native": "npm:1.4.0"
     "@pijma/react-native-svg": "npm:1.4.0"
-    "@svgr/cli": "npm:6.2.1"
     "@swc/cli": "npm:0.1.57"
     "@swc/core": "npm:1.2.215"
     "@swc/helpers": "npm:0.4.3"
@@ -2388,13 +2325,6 @@ __metadata:
     react-native-svg: "npm:12.3.0"
     tsc-esm-fix: "npm:2.18.0"
     typescript: "npm:4.7.4"
-  peerDependencies:
-    "@pijma/react-native": ">=1.0.0"
-    "@pijma/react-native-svg": ">=1.0.0"
-    "@swc/helpers": ">=0.4.0"
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-    react-native: ">=0.50.0"
   languageName: unknown
   linkType: soft
 
@@ -2402,30 +2332,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-paragraph@workspace:packages/paragraph"
   dependencies:
-    "@pijma/react-native": "npm:1.4.0"
-    "@swc/cli": "npm:0.1.57"
-    "@swc/core": "npm:1.2.215"
-    "@swc/helpers": "npm:0.4.3"
-    "@types/react": "npm:18.0.15"
-    "@types/react-dom": "npm:18.0.6"
-    "@types/react-native": "npm:0.69.2"
-    concurrently: "npm:7.2.2"
-    eslint: "npm:8.19.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-config-qiwi: "npm:1.17.3"
-    prettier: "npm:2.7.1"
-    prettier-config-qiwi: "npm:1.7.2"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-native: "npm:0.69.1"
-    tsc-esm-fix: "npm:2.18.0"
-    typescript: "npm:4.7.4"
-  peerDependencies:
-    "@pijma/react-native": ">=1.0.0"
-    "@swc/helpers": ">=0.4.0"
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-    react-native: ">=0.50.0"
+    "@pijma/business-infra": "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -2441,11 +2348,10 @@ __metadata:
     "@pijma/business-heading": "workspace:*"
     "@pijma/business-icon": "workspace:*"
     "@pijma/business-icons": "workspace:*"
+    "@pijma/business-infra": "workspace:*"
     "@pijma/business-paragraph": "workspace:*"
     "@pijma/business-text-field": "workspace:*"
     "@pijma/business-wrapper": "workspace:*"
-    "@pijma/react-native": "npm:1.4.0"
-    "@pijma/react-native-svg": "npm:1.4.0"
     "@storybook/addon-essentials": "npm:6.4.22"
     "@storybook/addon-interactions": "npm:6.4.22"
     "@storybook/addon-jest": "npm:6.4.22"
@@ -2456,20 +2362,12 @@ __metadata:
     "@storybook/react": "npm:6.4.22"
     "@storybook/test-runner": "npm:0.4.0"
     "@storybook/testing-library": "npm:0.0.13"
-    "@swc/helpers": "npm:0.4.3"
     "@testing-library/jest-dom": "npm:5.16.4"
     babel-loader: "npm:8.2.5"
     babel-plugin-react-native-web: "npm:0.18.6"
     babel-plugin-tsconfig-paths-module-resolver: "npm:1.0.3"
-    eslint: "npm:8.19.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-config-qiwi: "npm:1.17.3"
     http-server: "npm:14.1.1"
     jest: "npm:27.5.1"
-    prettier: "npm:2.7.1"
-    prettier-config-qiwi: "npm:1.7.2"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
     react-native: "npm:0.69.1"
     react-native-reanimated: "npm:2.9.1"
     react-native-svg: "npm:12.3.0"
@@ -2477,7 +2375,7 @@ __metadata:
     react-test-renderer: "npm:18.2.0"
     storybook-addon-swc: "npm:1.1.7"
     tsconfig-paths-webpack-plugin: "npm:3.5.2"
-    typescript: "npm:4.7.4"
+    wait-on: "npm:6.0.1"
     webpack: "npm:5.73.0"
   languageName: unknown
   linkType: soft
@@ -2486,30 +2384,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-text-field@workspace:packages/text-field"
   dependencies:
-    "@pijma/react-native": "npm:1.4.0"
-    "@swc/cli": "npm:0.1.57"
-    "@swc/core": "npm:1.2.215"
-    "@swc/helpers": "npm:0.4.3"
-    "@types/react": "npm:18.0.15"
-    "@types/react-dom": "npm:18.0.6"
-    "@types/react-native": "npm:0.69.2"
-    concurrently: "npm:7.2.2"
-    eslint: "npm:8.19.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-config-qiwi: "npm:1.17.3"
-    prettier: "npm:2.7.1"
-    prettier-config-qiwi: "npm:1.7.2"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-native: "npm:0.69.1"
-    tsc-esm-fix: "npm:2.18.0"
-    typescript: "npm:4.7.4"
-  peerDependencies:
-    "@pijma/react-native": ">=1.0.0"
-    "@swc/helpers": ">=0.4.0"
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-    react-native: ">=0.50.0"
+    "@pijma/business-infra": "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -2517,30 +2392,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-theme@workspace:packages/theme"
   dependencies:
-    "@pijma/react-native": "npm:1.4.0"
-    "@swc/cli": "npm:0.1.57"
-    "@swc/core": "npm:1.2.215"
-    "@swc/helpers": "npm:0.4.3"
-    "@types/react": "npm:18.0.15"
-    "@types/react-dom": "npm:18.0.6"
-    "@types/react-native": "npm:0.69.2"
-    concurrently: "npm:7.2.2"
-    eslint: "npm:8.19.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-config-qiwi: "npm:1.17.3"
-    prettier: "npm:2.7.1"
-    prettier-config-qiwi: "npm:1.7.2"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-native: "npm:0.69.1"
-    tsc-esm-fix: "npm:2.18.0"
-    typescript: "npm:4.7.4"
-  peerDependencies:
-    "@pijma/react-native": ">=1.0.0"
-    "@swc/helpers": ">=0.4.0"
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-    react-native: ">=0.50.0"
+    "@pijma/business-infra": "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -2548,41 +2400,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pijma/business-wrapper@workspace:packages/wrapper"
   dependencies:
+    "@pijma/business-infra": "workspace:*"
     "@pijma/business-theme": "workspace:*"
-    "@pijma/react-native": "npm:1.4.0"
-    "@swc/cli": "npm:0.1.57"
-    "@swc/core": "npm:1.2.215"
-    "@swc/helpers": "npm:0.4.3"
-    "@types/react": "npm:18.0.15"
-    "@types/react-dom": "npm:18.0.6"
-    "@types/react-native": "npm:0.69.2"
-    concurrently: "npm:7.2.2"
-    eslint: "npm:8.19.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-config-qiwi: "npm:1.17.3"
-    prettier: "npm:2.7.1"
-    prettier-config-qiwi: "npm:1.7.2"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-native: "npm:0.69.1"
-    react-native-svg: "npm:12.3.0"
-    tsc-esm-fix: "npm:2.18.0"
-    typescript: "npm:4.7.4"
-  peerDependencies:
-    "@pijma/react-native": ">=1.0.0"
-    "@swc/helpers": ">=0.4.0"
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-    react-native: ">=0.50.0"
   languageName: unknown
   linkType: soft
 
 "@pijma/business@workspace:.":
   version: 0.0.0-use.local
   resolution: "@pijma/business@workspace:."
-  dependencies:
-    concurrently: "npm:7.2.2"
-    typescript: "npm:4.7.4"
   languageName: unknown
   linkType: soft
 
@@ -4288,175 +4113,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svgr/babel-plugin-add-jsx-attribute@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@svgr/babel-plugin-add-jsx-attribute@npm:6.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: ae1daf2427f9713a4eabf96639ed05bb182d18332f49720ba55b1624bc80e45dee5b06e1f09a7ae4323f7ae87200d9737bde86eb3e89b05f613700a5aafeb0b2
-  languageName: node
-  linkType: hard
-
-"@svgr/babel-plugin-remove-jsx-attribute@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@svgr/babel-plugin-remove-jsx-attribute@npm:6.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 4f07403fbedc47c09357728d4b619bfaef1e3ba057137840863736b711900ff15e7c5a1699e8d4e925110b9639c8777460b664aeff56184477897886f8ec52bb
-  languageName: node
-  linkType: hard
-
-"@svgr/babel-plugin-remove-jsx-empty-expression@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@svgr/babel-plugin-remove-jsx-empty-expression@npm:6.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: ae56d0bf5e897569699dafbde7686c2c05711b31bbb1091a5f4a43e0f66e1c5badd962ccade8de56b608ac63f97c30970048e65a4baf8a378a26e350b4a264be
-  languageName: node
-  linkType: hard
-
-"@svgr/babel-plugin-replace-jsx-attribute-value@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@svgr/babel-plugin-replace-jsx-attribute-value@npm:6.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: b0c7569e130ed1f57849ae22cca049ef827729978a18f9d60fb54ceeb59e912c74305504cb02c6be1eb84dd9f6851c2ef85845b8ee5d9a2e55d31b3462a6f705
-  languageName: node
-  linkType: hard
-
-"@svgr/babel-plugin-svg-dynamic-title@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@svgr/babel-plugin-svg-dynamic-title@npm:6.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: d5e9c23f91665bc2aceb910e94d84b72cfc33bfa0e350563c103f709bba8f9329ff2c1e8c9ad89874c9784e367f313a828a3261bc18bfa31e8620ff0f7e569b1
-  languageName: node
-  linkType: hard
-
-"@svgr/babel-plugin-svg-em-dimensions@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@svgr/babel-plugin-svg-em-dimensions@npm:6.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 3b4fca1721837466b4d5bedd9e964ef98e4c453af1e5fc7844417180a3d2c08f954c0895c2b2e9a06c6530c62ed9d63372b3ebcc3e2407c3524a8c74ab1dc9a0
-  languageName: node
-  linkType: hard
-
-"@svgr/babel-plugin-transform-react-native-svg@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@svgr/babel-plugin-transform-react-native-svg@npm:6.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: ac292e21da6dc6fcef5ed9eeebc5b63ab47673aa3e15fd2b232dbd0ec9371f26b184080880bc098cf21fee20d6df16bc76cdb7911331cfd29d15e3fb4581c57e
-  languageName: node
-  linkType: hard
-
-"@svgr/babel-plugin-transform-svg-component@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@svgr/babel-plugin-transform-svg-component@npm:6.2.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 4f177bb7ada2e2328f74c89c00fdb3ea1119b46dc2f607f28538aa8b0ec6185e1615d40cae8e3951c3ee43c456a68a7cb56ad42f66ad2a55aaa214feaebfb4fc
-  languageName: node
-  linkType: hard
-
-"@svgr/babel-preset@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@svgr/babel-preset@npm:6.2.0"
-  dependencies:
-    "@svgr/babel-plugin-add-jsx-attribute": "npm:^6.0.0"
-    "@svgr/babel-plugin-remove-jsx-attribute": "npm:^6.0.0"
-    "@svgr/babel-plugin-remove-jsx-empty-expression": "npm:^6.0.0"
-    "@svgr/babel-plugin-replace-jsx-attribute-value": "npm:^6.0.0"
-    "@svgr/babel-plugin-svg-dynamic-title": "npm:^6.0.0"
-    "@svgr/babel-plugin-svg-em-dimensions": "npm:^6.0.0"
-    "@svgr/babel-plugin-transform-react-native-svg": "npm:^6.0.0"
-    "@svgr/babel-plugin-transform-svg-component": "npm:^6.2.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 750660ba5f13e190a63e3b2d99fbc3e1289a2e67ad453a9254f56f6f470eccf425dbde40653155d5f4433e77f6e7a04284164e4fd8fdaecab997549658a7fb15
-  languageName: node
-  linkType: hard
-
-"@svgr/cli@npm:6.2.1":
-  version: 6.2.1
-  resolution: "@svgr/cli@npm:6.2.1"
-  dependencies:
-    "@svgr/core": "npm:^6.2.1"
-    "@svgr/plugin-jsx": "npm:^6.2.1"
-    "@svgr/plugin-prettier": "npm:^6.1.2"
-    "@svgr/plugin-svgo": "npm:^6.2.0"
-    camelcase: "npm:^6.2.0"
-    chalk: "npm:^4.1.2"
-    commander: "npm:^8.2.0"
-    dashify: "npm:^2.0.0"
-    glob: "npm:^7.1.7"
-  bin:
-    svgr: bin/svgr
-  checksum: 7e9fba7291d02a95ed19ede1296d3435aaf44cfd780c6b283ec60e3908f5edf1b90818f40c5bb273327b94aa35b72dad16f77d938b1e60e8ae71df7e4f8d18ca
-  languageName: node
-  linkType: hard
-
-"@svgr/core@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "@svgr/core@npm:6.2.1"
-  dependencies:
-    "@svgr/plugin-jsx": "npm:^6.2.1"
-    camelcase: "npm:^6.2.0"
-    cosmiconfig: "npm:^7.0.1"
-  checksum: 473e74380f6e8699210cbbd902a847b15e74496fc55caaf32b649b401bd2d1aac37615839478a44d268a48f5a5e6f57130dc9956ca80be3676e24382935912a9
-  languageName: node
-  linkType: hard
-
-"@svgr/hast-util-to-babel-ast@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "@svgr/hast-util-to-babel-ast@npm:6.2.1"
-  dependencies:
-    "@babel/types": "npm:^7.15.6"
-    entities: "npm:^3.0.1"
-  checksum: 9d69f7c3216e07e5ed1bd986045c29a9e6804cd810cce68f5cadb783e60f8d9caab4bf421015f8d17b973d712a2c0b1c20624283b393475ed671315968f7534f
-  languageName: node
-  linkType: hard
-
-"@svgr/plugin-jsx@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "@svgr/plugin-jsx@npm:6.2.1"
-  dependencies:
-    "@babel/core": "npm:^7.15.5"
-    "@svgr/babel-preset": "npm:^6.2.0"
-    "@svgr/hast-util-to-babel-ast": "npm:^6.2.1"
-    svg-parser: "npm:^2.0.2"
-  peerDependencies:
-    "@svgr/core": ^6.0.0
-  checksum: 477dde1be8f72b50c76cb244dcd0d3caaefd3ec3a4ead7c526e53480da9dec61e4b47c80648b1efc0f0a9dd814e3da2d4e35b3e8aac346e274892cb2184498b9
-  languageName: node
-  linkType: hard
-
-"@svgr/plugin-prettier@npm:^6.1.2":
-  version: 6.1.2
-  resolution: "@svgr/plugin-prettier@npm:6.1.2"
-  dependencies:
-    deepmerge: "npm:^4.2.2"
-    prettier: "npm:^2.4.0"
-  peerDependencies:
-    "@svgr/core": ^6.0.0
-  checksum: b07b0754429b03bb8142f8f1f277530131b6ecae8646ad624326d7b6e90d7848a629810fc02850a20e99368a120a8dba5531d4f70d0556c6d1f539b9be13354f
-  languageName: node
-  linkType: hard
-
-"@svgr/plugin-svgo@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@svgr/plugin-svgo@npm:6.2.0"
-  dependencies:
-    cosmiconfig: "npm:^7.0.1"
-    deepmerge: "npm:^4.2.2"
-    svgo: "npm:^2.5.0"
-  peerDependencies:
-    "@svgr/core": ^6.0.0
-  checksum: 185d84ea5c44022199049e125915cf2ad6690494839f49ca90e2dd56ba43222cdcbeccc0a2cc2ffb1371d8a5dfa570ff53c1b8a2dd3ed7e1605f07012e4a4902
-  languageName: node
-  linkType: hard
-
 "@swc/cli@npm:0.1.57":
   version: 0.1.57
   resolution: "@swc/cli@npm:0.1.57"
@@ -4824,13 +4480,6 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: d9f7f2130a0a2e1ea50f3bc90b83a8b99c913bbb80d7a1706f7f4730292ef299d18443c3b57a42dfb17c6559c9085e13f751b1b6c969bcff7bee3eeaf9da4dec
-  languageName: node
-  linkType: hard
-
-"@trysound/sax@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@trysound/sax@npm:0.2.0"
-  checksum: 4aedd10caa2c162049388fecab9d99cea4a95481a4ed341d7396093d7edf5b7c4954e8bbe78cf178dbf6196e9a2dbcc7cbcb222503f2823a74cf1e6b7e488f9a
   languageName: node
   linkType: hard
 
@@ -6450,6 +6099,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^0.25.0":
+  version: 0.25.0
+  resolution: "axios@npm:0.25.0"
+  dependencies:
+    follow-redirects: "npm:^1.14.7"
+  checksum: 2a71c86f4b5405ff35ba4f6a7a2146ff42089cd363737277efd2c83c3e2d3ab136e9784dab1cc3af4b40e449a5e8f59b4fb67e73e5552b3cdd1b914e661180e3
+  languageName: node
+  linkType: hard
+
 "babel-core@npm:^7.0.0-bridge.0":
   version: 7.0.0-bridge.0
   resolution: "babel-core@npm:7.0.0-bridge.0"
@@ -7836,14 +7494,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^7.1.0, commander@npm:^7.2.0":
+"commander@npm:^7.1.0":
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
   checksum: 1270a98c752348d62803dd6214bba584a13e5c80e0d32d590740f26c534209882a93daf471697326ad80b3f4f0417df31aca7b127e01efee58fe883b47c1a492
   languageName: node
   linkType: hard
 
-"commander@npm:^8.2.0, commander@npm:^8.3.0":
+"commander@npm:^8.3.0":
   version: 8.3.0
   resolution: "commander@npm:8.3.0"
   checksum: 94dba589da4444bc07d60537438ce36bbf78b52b18bb720fb3727a3b589cb27b53171065742e6e442962e273976f034ca7475cc5517d92c7033fae2f6ed50e76
@@ -8126,7 +7784,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^7.0.0, cosmiconfig@npm:^7.0.1":
+"cosmiconfig@npm:^7.0.0":
   version: 7.0.1
   resolution: "cosmiconfig@npm:7.0.1"
   dependencies:
@@ -8340,7 +7998,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-tree@npm:^1.0.0-alpha.39, css-tree@npm:^1.1.2, css-tree@npm:^1.1.3":
+"css-tree@npm:^1.0.0-alpha.39":
   version: 1.1.3
   resolution: "css-tree@npm:1.1.3"
   dependencies:
@@ -8381,15 +8039,6 @@ __metadata:
   bin:
     cssesc: bin/cssesc
   checksum: 5e8fcfb6a0fa7f9c05fd6d5a6a6580586310c7dd85c3938e1f199736fd392a9317998e639fde58f63ea786ff1bae5078d6342321c1deddab595fc5bf1764e66e
-  languageName: node
-  linkType: hard
-
-"csso@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "csso@npm:4.2.0"
-  dependencies:
-    css-tree: "npm:^1.1.2"
-  checksum: 761d240a35d850e3fde3ca0caa0fccaa3379552c25d42b49b9994f375e04ee935464db84d34c47aaa295aa582d7ef90f10e9e4146b8056f528ff2b88c3e994ee
   languageName: node
   linkType: hard
 
@@ -8444,13 +8093,6 @@ __metadata:
   version: 1.0.1
   resolution: "cyclist@npm:1.0.1"
   checksum: 7cb16a1e4310ed56c083956b76719bad9308dd1fcae419ca3588054ef8434d8c48152b797dd53b2660c39b13296f72896443b3590b6a972ec377a931562bcfad
-  languageName: node
-  linkType: hard
-
-"dashify@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "dashify@npm:2.0.0"
-  checksum: 3b0e66b9b6819f6263d32c72ef57c137e022a31ca6f5cef68caa89a9939284ba33aca873818d60347cc924cebaab29c7579d9d26dee313e46a39f438c9da29b4
   languageName: node
   linkType: hard
 
@@ -9103,13 +8745,6 @@ __metadata:
   version: 2.2.0
   resolution: "entities@npm:2.2.0"
   checksum: eec79bcb8fe0e6e8c5fcd83fe87115535a4a616220db35ddec38aac360f0f19669da3150a87f2bd9fba9829cea0857c806ea216177adc3d099b143db9e89d46f
-  languageName: node
-  linkType: hard
-
-"entities@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "entities@npm:3.0.1"
-  checksum: 8c10fef51039eef30d6047ede847755a83824cd0e04cfeece5a9ac0a107f34dbed1167270f9442ba8d020a01596253279c2b14969669f6dead5f720e70ac3b0b
   languageName: node
   linkType: hard
 
@@ -10291,7 +9926,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.0, follow-redirects@npm:^1.14.7":
   version: 1.15.1
   resolution: "follow-redirects@npm:1.15.1"
   peerDependenciesMeta:
@@ -10747,7 +10382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^7.1.1, glob@npm:^7.1.2, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6, glob@npm:^7.1.7":
+"glob@npm:^7.1.1, glob@npm:^7.1.2, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6":
   version: 7.2.3
   resolution: "glob@npm:7.2.3"
   dependencies:
@@ -13018,7 +12653,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joi@npm:^17.2.1, joi@npm:^17.3.0":
+"joi@npm:^17.2.1, joi@npm:^17.3.0, joi@npm:^17.6.0":
   version: 17.6.0
   resolution: "joi@npm:17.6.0"
   dependencies:
@@ -15858,7 +15493,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.7.1, prettier@npm:^2.4.0":
+"prettier@npm:2.7.1":
   version: 2.7.1
   resolution: "prettier@npm:2.7.1"
   bin:
@@ -17304,6 +16939,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rxjs@npm:^7.5.4":
+  version: 7.5.6
+  resolution: "rxjs@npm:7.5.6"
+  dependencies:
+    tslib: "npm:^2.1.0"
+  checksum: f16db58531d9fdc9e7cce0e33676cf791128db889304247249ba434885d35b1d173eed68ac255fca770da4c0277f97727c5fbbdc659b0b1f04d10fe42ed0dc67
+  languageName: node
+  linkType: hard
+
 "safe-buffer@npm:5.1.1":
   version: 5.1.1
   resolution: "safe-buffer@npm:5.1.1"
@@ -18382,30 +18026,6 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 14609489b044de2eaffe0e7549173bb39d6997510ac4b7279d07bf2aafe309205abe172a8c8d248062a24e32ab61a2ae85efc5b4cdf7f932c7cdbe81ca1f39ec
-  languageName: node
-  linkType: hard
-
-"svg-parser@npm:^2.0.2":
-  version: 2.0.4
-  resolution: "svg-parser@npm:2.0.4"
-  checksum: b970f4533a6ce64d3498f1a2c87d0cfd6d681e18fa58af7a9b061119dbb968e289a650e2c2094f08e28e83b9727a857545e7e15f6b27b2426f3c32cfa7f1a941
-  languageName: node
-  linkType: hard
-
-"svgo@npm:^2.5.0":
-  version: 2.8.0
-  resolution: "svgo@npm:2.8.0"
-  dependencies:
-    "@trysound/sax": "npm:0.2.0"
-    commander: "npm:^7.2.0"
-    css-select: "npm:^4.1.3"
-    css-tree: "npm:^1.1.3"
-    csso: "npm:^4.2.0"
-    picocolors: "npm:^1.0.0"
-    stable: "npm:^0.1.8"
-  bin:
-    svgo: bin/svgo
-  checksum: f475df0d8cf24ad6c8498049abd1bc07753f77aa96ae0ca28f323b7e236fc2d94e680a694e8783a95db9e50d4275b76aa993653c45ed60dc985d8dd8609e2650
   languageName: node
   linkType: hard
 
@@ -19587,6 +19207,21 @@ __metadata:
   dependencies:
     xml-name-validator: "npm:^3.0.0"
   checksum: db1ddf2f7d77aa3f4f0ef113ea5e915405b106245cd1e3476e23a33b3644534ba16ec353ca9974a0c007f68cf250dd0d8ee721951c251288673b8a9b0c2a5172
+  languageName: node
+  linkType: hard
+
+"wait-on@npm:6.0.1":
+  version: 6.0.1
+  resolution: "wait-on@npm:6.0.1"
+  dependencies:
+    axios: "npm:^0.25.0"
+    joi: "npm:^17.6.0"
+    lodash: "npm:^4.17.21"
+    minimist: "npm:^1.2.5"
+    rxjs: "npm:^7.5.4"
+  bin:
+    wait-on: bin/wait-on
+  checksum: 3baaf229b3a996a6f7ea972bc13b46dd6a4639b58d644d6dcf5565fd0307d22a571362422faa7e76d510b07d2481105a019a942d7f5799ec3b2fb24cfc347116
   languageName: node
   linkType: hard
 
