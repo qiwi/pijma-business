@@ -1,0 +1,9 @@
+{
+  "META_VERSION": "1",
+  "name": "@pijma/business-paragraph",
+  "hash": "aa2d0bd54c7bff318c0e4a9e7ec166d682519bd5",
+  "version": "0.4.0",
+  "devDependencies": {
+    "@pijma/business-infra": "0.1.0"
+  }
+}
