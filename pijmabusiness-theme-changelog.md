@@ -1,3 +1,11 @@
+## [@pijma/business-theme@0.4.0](https://github.com/qiwi/pijma-business/compare/2022.7.21-pijma.business-theme.0.3.0-f0...2022.8.4-pijma.business-theme.0.4.0-f0) (2022-08-04)
+
+### Features
+* feat: infra [dbc7afa](https://github.com/qiwi/pijma-business/commit/dbc7afa9f99b3f3ace2cbbc67e4e8d19bc0a5241)
+
+### Dependencies
+* perf: @pijma/business-infra updated to 0.1.0
+
 ## [@pijma/business-theme@0.3.0](https://github.com/qiwi/pijma-business/compare/2022.7.17-pijma.business-theme.0.2.2-f0...2022.7.21-pijma.business-theme.0.3.0-f0) (2022-07-21)
 
 ### Features
