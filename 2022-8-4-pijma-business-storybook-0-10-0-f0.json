@@ -1,0 +1,18 @@
+{
+  "META_VERSION": "1",
+  "name": "@pijma/business-storybook",
+  "hash": "aa2d0bd54c7bff318c0e4a9e7ec166d682519bd5",
+  "version": "0.10.0",
+  "dependencies": {
+    "@pijma/business-button": "0.4.0",
+    "@pijma/business-heading": "0.4.0",
+    "@pijma/business-icon": "0.4.0",
+    "@pijma/business-icons": "0.2.0",
+    "@pijma/business-paragraph": "0.4.0",
+    "@pijma/business-text-field": "0.2.0",
+    "@pijma/business-wrapper": "0.4.0"
+  },
+  "devDependencies": {
+    "@pijma/business-infra": "0.1.0"
+  }
+}
